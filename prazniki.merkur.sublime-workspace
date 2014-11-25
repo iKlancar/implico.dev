@@ -1,0 +1,1456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mvco",
+				"mvcolor-blue"
+			],
+			[
+				"mvcolor-bl",
+				"mvcolor-blue"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"mv",
+				"mvcolor-blue"
+			],
+			[
+				"re",
+				"request-groups"
+			],
+			[
+				"ski",
+				"ski-deals"
+			],
+			[
+				"mvcolo",
+				"mvcolor-d"
+			],
+			[
+				"ponu",
+				"ponudba-dneva"
+			],
+			[
+				"po",
+				"ponudba-dneva"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ski-cl",
+				"ski-closing-4"
+			],
+			[
+				"ski-c",
+				"ski-closing-7"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"mvcol",
+				"mvcolor-f"
+			],
+			[
+				"mvc",
+				"mvcolor-d"
+			],
+			[
+				"D",
+				"description"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"im",
+				"imageSlider"
+			],
+			[
+				"t",
+				"title"
+			],
+			[
+				"imag",
+				"imageSlider"
+			],
+			[
+				"res",
+				"resort"
+			],
+			[
+				"detail",
+				"detailsUrl"
+			],
+			[
+				"no",
+				"noč"
+			],
+			[
+				"baccol",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"POP",
+				"pop-up"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"fal",
+				"false"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"proper",
+				"properties"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 135.0,
+		"selected_items":
+		[
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"togg",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toff",
+				"Git: Open Modified Files"
+			],
+			[
+				"to",
+				"View: Toggle Side Bar"
+			],
+			[
+				"cca",
+				"Convert Case: Upper Case"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ss",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"filerea",
+				"File: Rename"
+			],
+			[
+				"filedu",
+				"File: Duplicate"
+			],
+			[
+				"caselo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"caselowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"filed",
+				"File: Duplicate"
+			],
+			[
+				"renma",
+				"File: Rename"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"filedele",
+				"File: Delete"
+			],
+			[
+				"duplicat",
+				"File: Duplicate"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"casel",
+				"Convert Case: Lower Case"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"gitb",
+				"Git: Blame"
+			],
+			[
+				"caselow",
+				"Convert Case: Lower Case"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"gitbla",
+				"Git: Blame"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"file",
+				"File: Delete"
+			],
+			[
+				"filde",
+				"File: Delete"
+			],
+			[
+				"rvea",
+				"File: Reveal"
+			],
+			[
+				"fi",
+				"File: Rename"
+			],
+			[
+				"filerena",
+				"File: Rename"
+			],
+			[
+				"REINDE",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"qeead",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"duplic",
+				"File: Duplicate"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"ssh",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"revea",
+				"File: Reveal"
+			],
+			[
+				"jqrea",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"revel",
+				"File: Reveal"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"cas",
+				"Convert Case: Upper Case"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"ssjaca",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packainsta",
+				"Package Control: Install Package"
+			],
+			[
+				"toggl",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Klancar/Development/red-orbit/merkur/prazniki.merkur"
+	],
+	"file_history":
+	[
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/documents/ladies.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/header.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/main/carousel.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ladies.ladies.it.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/main/views/show.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ladies.ladies.sl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ladies.ladies.en.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/node_modules/node-mysql-q/node_modules/mysql/node_modules/require-all/test/controllers/main-Controller.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/main.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/messages-inline.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/resort/main-links.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/ace/LICENSE",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/ace/demo/kitchen-sink/dev_util.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/skideal/views/details.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/main/popular-destinations.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/config/app-config-defaults.json",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/main/our-selected-destinations.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public/js/booking/i18n/language-de.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/common/loading-availability-spinner.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/common/variables.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/accommodation.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/bootstrap/js/popover.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/cookie-policy.piskotki.sl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/ace/lib/ace/theme/pastel_on_dark.css",
+		"/Users/Klancar/Development/mountvacation/mv-web/package.json",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/search/availability-search.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/common/search-filter.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/common/search-box.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/search.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/search-box.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/skideal.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/documents/request-groups-form.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/pages/request-groups.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resort/presenter.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/request.povprasevanje.sl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/documents/request-form.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/mail-templates/request-groups.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/bootstrap/responsive-embed.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/README.md",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/request.request.en.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/node_modules/express/lib/request.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public/css/documents/request.css",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/documents/request.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/skideal/details-single-skideal.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/js/common.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/common-js.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/config/urls.json",
+		"/Users/Klancar/Development/mountvacation/mv-web/pages/subscribe.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/lib/api/json-schemes.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/accommodation/views/show.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/skideal/rss.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/common/common.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/pm2_config.json",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/romantic.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/freestyle.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/freeride.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/family.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/crosscountry.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/country.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/resortfinder.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/show.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/skiparty.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resortfinder/views/wellness.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/nm_/handlebars/node_modules/optimist/example/divide.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/dev-header.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/jquery-ui/ui/i18n/datepicker-el.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/default.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/iframe.iframe.sl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/skideal.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/search.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/resort.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/booking.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/admin.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ski-holidays.smucanje.sl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ski-holidays.skijanje.hr.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ski-holidays.ski-holidays.en.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ski-bus.na-smucanje-v-francijo-z-avtobusom.sl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/ski-bus.na-skijanje-u-francusku-sa-autobusom.hr.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/request-groups.request-groups.en.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/main/index.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/layouts/accommodation.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/meta/common.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/terms-and-conditions.geschaftsbedingungen.de.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/nm_/grunt-html-minify/node_modules/html-minify/node_modules/nodeunit/node_modules/tap/test/meta-test.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/node_modules/winston/test/transports/memory-test.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public/js/booking/i18n/moment-en.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/about-us.about-us.en.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/iframe-3382-test.html",
+		"/Users/Klancar/Development/mountvacation/mv-web/controllers/resort/views/show.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/contact.kontakt.pl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/did-you-know.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/follow-subscribe.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/js/booking/templates/cart-cartgroup-item.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/js/booking/templates/cart-cartgroup.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/contact.kontakt.sl.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/booking/cart.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/js/booking/templates/cart-facility.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/js/booking/templates/cart-default.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/node_modules/html-minifier/node_modules/clean-css/lib/images/url-rebase.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/css/booking/booking-default.css",
+		"/Users/Klancar/Development/mountvacation/mv-web/public/css/booking.css",
+		"/Users/Klancar/Development/mountvacation/mv-web/lib/boot.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/lib/body-modifier.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/node_modules/express3-handlebars/examples/advanced/views/home.handlebars",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/ace/lib/ace/edit_session/fold_line.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/footer.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/contact.kontakt.hr.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/documents/contact.contact.en.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/mail-templates/contact.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/ace/CONTRIBUTING.md",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/js/skideal-edit.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/common/admin.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/skideal/show-single-skideal.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/views/partials/adroll.hbs",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/less/common/form-validation.less",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/modernizr/test/js/lib/jsonselect.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/node_modules/node-mysql-q/ReadMe.md",
+		"/Users/Klancar/Development/mountvacation/mv-web/public_src/js/controllers/skideal.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/lib/api/skideals.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/summernote/dist/summernote.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/public/js/jquery.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/summernote/src/js/Renderer.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/jqueryui-timepicker-addon/dist/i18n/jquery-ui-timepicker-ja.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/bower_components/jquery-ui/jquery-ui.js",
+		"/Users/Klancar/Development/mountvacation/mv-web/nm_/express/node_modules/proxy-addr/History.md",
+		"/Users/Klancar/Development/mountvacation/mv-web/node_modules/handlebars/coverage/lcov-report/dist/cjs/handlebars/compiler/visitor.js.html",
+		"/Users/Klancar/Development/mountvacation/mv-web/nm_/express3-handlebars/node_modules/handlebars/dist/handlebars.runtime.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"*.less",
+			"*.hbs",
+			"*.less",
+			"",
+			"less",
+			"",
+			"*.hbs",
+			"",
+			"*.less",
+			"*.js",
+			"*.less",
+			"*.hbs",
+			"*.js",
+			"*.",
+			"*.hbs",
+			"*.less",
+			"*.js",
+			"*.less",
+			"*.js",
+			"*.hbs",
+			"*.js",
+			"*.hbs",
+			"",
+			"*.less",
+			"*.js",
+			"*.hbs",
+			"*.js",
+			"",
+			"*.hbs",
+			"",
+			"*.hbs",
+			"*.less",
+			"*.hbs,/Users/Klancar/Development/mountvacation/mv-web/documents",
+			"*.hbs",
+			"*.js",
+			"*.hbs",
+			"",
+			"*.hbs",
+			"*.hbs,/Users/Klancar/Development/mountvacation/mv-web/documents",
+			"*.hbs",
+			"*.hbs,/Users/Klancar/Development/mountvacation/mv-web/views",
+			"*.hbs",
+			"*.less",
+			"*.js",
+			"*.hbs",
+			"*.js",
+			"*.hbs",
+			"*.js",
+			"*.hbs",
+			"*.less",
+			"*.hbs",
+			"*.less",
+			"*.hbs",
+			"*.less",
+			"*.hbs",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</a>\n				</div>",
+			"/w/1",
+			"1",
+			"/s/",
+			"XXX",
+			"50",
+			"w/",
+			"148",
+			"9232",
+			"11",
+			"9210",
+			"9232",
+			"/w/",
+			"1/w/",
+			"tionmedia.com/r/",
+			"id",
+			"idresort",
+			"a.com/r/",
+			"id",
+			"idresort",
+			"qy6dgwdanimation",
+			"-webkit-animation-timing-function: linear;",
+			"linear",
+			"Content ",
+			"advertising",
+			"Engagement",
+			"Strategic",
+			"consulting",
+			"Instagram",
+			"viral",
+			"focus group",
+			"to the moon",
+			"API",
+			"A/B",
+			"viral",
+			"to the moon",
+			"focus group",
+			"Instagram",
+			"Strategic consulting",
+			"Engagement campaign",
+			"Native advertising",
+			"Content marketing",
+			"Twitter",
+			"twitter",
+			"ecommerce",
+			"deliver results",
+			"analyze",
+			"measure",
+			"universal analytics",
+			"customer decision journey",
+			"digital",
+			"Facebook",
+			"Remarketing",
+			"SEO",
+			"Optimization",
+			"optimize",
+			"Optimization",
+			"Are you looking for a great weekend get-away and a great ski party? Join us at traditional Grazia Fashion Magazine Ladies Ski Opening Event in Katschberg, Austria! Welcome surprise kit for every lady, free ski school, prize games on the snow, Zumba, parties with the DJ on the top of the mountains dancing to the sunset and all night long party. We care about you!",
+			"ladies-social-share-en",
+			"{{!-- <meta property=\"og:image\" content=\"http://www.mountvacationmedia.com/media/page/documents/ladies/ladies-social-share-en.jpg\" /> --}}",
+			"The traditional Grazia Ladies Ski Opening will this year heappen in Katschberg! No worries, MountVacation's parties on slopes, MountVacation's Après-ski program and compelling evening parties are still waiting for you!",
+			"gare",
+			"4",
+			"9436",
+			"9144",
+			"/s/",
+			"76",
+			"9436",
+			"4",
+			"/s/",
+			"-en.jp",
+			"Že tradicionalni Grazia Ladies Ski Opening smo letos iz Zell am See-ja prestavili v Katschberg! Brez skbi, MountVacation zabave na smučišču, MountVacation Après-ski zabave in nepremagljive večerne žurke vam vseeno ne uidejo!",
+			"search?personsages=18%2C18&arrival=2014-12-11&departure=2014-12-14&idresort=9146",
+			"-sl.jp",
+			"sl",
+			"Smučarija na 2222m nadmorske višine",
+			"Smučarski učitelji, 70 km prog in test smuči",
+			"Bogata darilna vrečka za vsako udeleženko",
+			"Posebno presenečenje za dame ;)",
+			".",
+			"Avstrija",
+			"-",
+			"am",
+			"pm",
+			"30pm",
+			"-",
+			"<li>V",
+			"-	",
+			"hidden",
+			"document",
+			"Tlink",
+			"eb.",
+			"sul livello del mare",
+			"prest",
+			"Il tradizionale Grazia Ladies Ski Opening quest'anno si sposta a Katschberg! Non preoccupatevi, non vi perderete nessuna dellle feste sulle piste di MountVacation, le Après-ski e le indimenticabili feste serali!",
+			"stagione",
+			"inizio stagione",
+			"\">\n",
+			"re-sl.j",
+			"<li>11.12.2014 - 14.12.2014</li>",
+			"Avstrija",
+			"se vidi",
+			"dj Rocco",
+			"-	",
+			"Že tradicionalni Grazia Ladies Ski Opening smo letos iz Zell am See-ja prestavili v Katschberg! Brez skbi, MountVacation zabave na smučišču, MountVacation Après-ski zabave in nepremagljive večerne žurke vam vseeno ne uidejo!",
+			"<span class=\"icon-star\"></span>",
+			"freestyle",
+			"icon-star",
+			"*",
+			"small",
+			"\"cs\": [148, 9191, 104, 4, 127, 69, 9436, 87, 76]",
+			"MountVacation.cz",
+			"	{{#is MV.lang 'cs'}}\n",
+			"9210",
+			"9232",
+			"4",
+			"Lago di Garda",
+			"4",
+			"pl",
+			"148",
+			"\"pl\": [148, 9191, 104, 4, 127, 69, 9436, 87, 76],",
+			"idresort",
+			"| MountVacation.pl",
+			"9144",
+			"	{{#is MV.lang 'de'}}\n",
+			"148",
+			"\"de\": [148, 9210, 9144, 9436, 76, 87, 4, 11, 145],",
+			"idresort"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{{!-- Go to www.addthis.com/dashboard to customize your tools --}}\n		{{#unless MV.iframe}}\n			{{#is settings.env 'production'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff\"></script>{{/is}}\n			{{#is settings.env 'test'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff\"></script>{{/is}}\n		{{/unless}}",
+			"{{!-- Go to www.addthis.com/dashboard to customize your tools --}}\n		{{#is settings.env 'production'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff\"></script>{{/is}}\n		{{#is settings.env 'test'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff\"></script>{{/is}}\n\n		{{> adroll}}\n\n		<!-- Made with Love and Passion by Mountain lovers. -->",
+			"{{#is MV.id 'skideal-subscribe'}}{{#is MV.lang 'sl'}}346077bd02{{/is}}{{#is MV.lang 'hr'}}90df4ec37e{{/is}}{{/is}}",
+			"'document.show' id='newsletter-subscribe'",
+			"<a href=\"{{url 'document.show' id='skideal-subscribe'}}\" class=\"btn blue\">{{T 'web.skiDealSubscribeCTA'}}</a>",
+			"<a href=\"{{url 'document.show' id='subscribe'}}\" class=\"btn blue\">{{T 'web.skiDealSubscribeCTA'}}</a>",
+			"<a href=\"{{url 'document.show' id='subscribe'}}\" class=\"btn blue\">{{T 'skiDealSubscribeCTA'}}</a>",
+			"<link rel=\"stylesheet\" href=\"/public/css/skideal.css{{scriptVersion}}\"/>",
+			"<link rel=\"stylesheet\" href=\"/public/css/ski-deal.css{{scriptVersion}}\"/>",
+			"<div class=\"tag-out\">",
+			"id='daily-deal-001'",
+			"daily-deal",
+			"<div id=\"footer\">{{> footer}}</div>\n		\n		{{#is settings.env 'production'}}\n			{{!-- JS --}}\n			{{> common-js}}\n			{{!-- {{> availability-libs}} --}}\n		{{/is}}\n\n		{{> google-analytics}}\n				\n		<!-- Made with Love and Passion by Mountain lovers. -->",
+			"",
+			"{{!-- Go to www.addthis.com/dashboard to customize your tools --}}\n		{{#is settings.env 'production'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff\"></script>{{/is}}\n		{{#is settings.env 'test'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff\"></script>{{/is}}",
+			"{{!-- Go to www.addthis.com/dashboard to customize your tools --}}\n		{{#is settings.env 'production'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff{{scriptVersion}}\"></script>{{/is}}\n		{{#is settings.env 'test'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff{{scriptVersion}}\"></script>{{/is}}",
+			"		\n		{{!-- Go to www.addthis.com/dashboard to customize your tools --}}",
+			"",
+			"{{> google-typography}}",
+			"<div id=\"footer\">{{> footer}}</div>\n		\n		{{> google-analytics}}\n\n		{{!-- Calling Google Open Sans Typography --}}\n		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>\n		\n		<!-- Made with Love and Passion by Mountain lovers. -->",
+			"{{#is settings.env 'production'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff{{scriptVersion}} async\n\"></script>{{/is}}",
+			"{{#is settings.env 'production'}}<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b7424905a21aff{{scriptVersion}}\"></script>{{/is}}",
+			"http://www.mountvacationmedia.com/media/skimaps/resort_{{MV.resort.main.resortID}}_1_sm.jpg{{pictureVersion}}",
+			".css{{scriptVersion}}\"",
+			".css{{scriptVersion}}"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 307.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "prazniki.merkur.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main/carousel",
+				"views/partials/main/carousel.hbs"
+			],
+			[
+				"maincarousel",
+				"views/partials/main/carousel.hbs"
+			],
+			[
+				"heade",
+				"views/partials/header.hbs"
+			],
+			[
+				"ladisless",
+				"public_src/less/documents/ladies.less"
+			],
+			[
+				"ladies",
+				"documents/ladies.ladies.sl.hbs"
+			],
+			[
+				"populardes",
+				"views/partials/main/popular-destinations.hbs"
+			],
+			[
+				"main/popular-destinations",
+				"views/partials/main/popular-destinations.hbs"
+			],
+			[
+				"main/our-selected-destinations",
+				"views/partials/main/our-selected-destinations.hbs"
+			],
+			[
+				"header",
+				"views/partials/header.hbs"
+			],
+			[
+				"searchless",
+				"public_src/less/search/availability-search.less"
+			],
+			[
+				"request-gro",
+				"views/partials/documents/request-groups-form.hbs"
+			],
+			[
+				"documents/request-form",
+				"views/partials/documents/request-form.hbs"
+			],
+			[
+				"request",
+				"documents/request.povprasevanje.sl.hbs"
+			],
+			[
+				"skideal/details-single-skideal",
+				"views/partials/skideal/details-single-skideal.hbs"
+			],
+			[
+				"head",
+				"views/partials/header.hbs"
+			],
+			[
+				"json",
+				"lib/api/json-schemes.js"
+			],
+			[
+				"commoj",
+				"views/partials/common-js.hbs"
+			],
+			[
+				"commo",
+				"public_src/js/common.js"
+			],
+			[
+				"hedae",
+				"views/partials/header.hbs"
+			],
+			[
+				"devheader",
+				"views/partials/dev-header.hbs"
+			],
+			[
+				"metacommon",
+				"views/partials/meta/common.hbs"
+			],
+			[
+				"urls",
+				"config/urls.json"
+			],
+			[
+				"cart-facility",
+				"public_src/js/booking/templates/cart-facility.hbs"
+			],
+			[
+				"bookingcart",
+				"views/partials/booking/cart.hbs"
+			],
+			[
+				"searchbox",
+				"public_src/less/common/search-box.less"
+			],
+			[
+				"devhde",
+				"views/partials/dev-header.hbs"
+			],
+			[
+				"requestsl",
+				"documents/request.povprasevanje.sl.hbs"
+			],
+			[
+				"follow",
+				"views/partials/follow-subscribe.hbs"
+			],
+			[
+				"contact",
+				"documents/contact.kontakt.sl.hbs"
+			],
+			[
+				"req",
+				"views/mail-templates/request-groups.hbs"
+			],
+			[
+				"request-form",
+				"views/partials/documents/request-groups-form.hbs"
+			],
+			[
+				"skidealedit",
+				"public_src/js/skideal-edit.js"
+			],
+			[
+				"admin",
+				"public_src/less/common/admin.less"
+			],
+			[
+				"skidealless",
+				"public_src/less/skideal.less"
+			],
+			[
+				"jsons",
+				"lib/api/json-schemes.js"
+			],
+			[
+				"skideal",
+				"views/partials/skideal/show-single-skideal.hbs"
+			],
+			[
+				"jqueryjs",
+				"public/js/jquery.js"
+			],
+			[
+				"adminless",
+				"public_src/less/common/admin.less"
+			],
+			[
+				"skideal/show-single-skideal",
+				"views/partials/skideal/show-single-skideal.hbs"
+			],
+			[
+				"metacomm",
+				"views/partials/meta/common.hbs"
+			],
+			[
+				"adroll",
+				"views/partials/adroll.hbs"
+			],
+			[
+				"google-analytics",
+				"views/partials/google-analytics.hbs"
+			],
+			[
+				"selectize",
+				"public_src/less/common/selectize.less"
+			],
+			[
+				"searchboxless",
+				"public_src/less/common/search-box.less"
+			],
+			[
+				"imageslider",
+				"views/partials/resort/imageSlider.hbs"
+			],
+			[
+				"bodymo",
+				"lib/body-modifier.js"
+			],
+			[
+				"request-groups",
+				"views/partials/documents/request-groups-form.hbs"
+			],
+			[
+				"skibus",
+				"documents/ski-bus.na-skijanje-u-francusku-sa-autobusom.hr.hbs"
+			],
+			[
+				"ski-bis",
+				"documents/ski-bus.na-smucanje-v-francijo-z-avtobusom.sl.hbs"
+			],
+			[
+				"plugins/captcha",
+				"views/partials/plugins/captcha.hbs"
+			],
+			[
+				"requestless",
+				"public_src/less/documents/request.less"
+			],
+			[
+				"documentrequest",
+				"documents/request.povprasevanje.sl.hbs"
+			],
+			[
+				"request-",
+				"views/partials/documents/request-form.hbs"
+			],
+			[
+				"mailness",
+				"public_src/less/main.less"
+			],
+			[
+				"layoutreso",
+				"views/layouts/resort.hbs"
+			],
+			[
+				"layoutdeta",
+				"views/layouts/default.hbs"
+			],
+			[
+				"image",
+				"views/partials/resort/imageSlider.hbs"
+			],
+			[
+				"cheap",
+				"public_src/img/resort-season-offer-moon-850x500-cheap.svg"
+			],
+			[
+				"tagcircle",
+				"public_src/img/tag-circle-big.svg"
+			],
+			[
+				"carnival",
+				"public_src/img/resort-season-offer-moon-850x500-carnival.svg"
+			],
+			[
+				"hallo",
+				"public_src/img/resort-season-offer-moon-850x500-halloween.svg"
+			],
+			[
+				"halfterm",
+				"public_src/img/resort-season-offer-moon-850x500-half-term.svg"
+			],
+			[
+				"hallowee",
+				"public_src/img/resort-season-offer-moon-850x500-halloween.svg"
+			],
+			[
+				"christmas",
+				"public_src/img/resort-season-offer-moon-850x500-christmas.svg"
+			],
+			[
+				"newyear",
+				"public_src/img/resort-season-offer-moon-850x500-new-year.svg"
+			],
+			[
+				"resortless",
+				"public_src/less/resort.less"
+			],
+			[
+				"ski-opening",
+				"public_src/img/resort-season-offer-moon-850x500-ski-opening-7.svg"
+			],
+			[
+				"skidealshow",
+				"controllers/skideal/views/show.hbs"
+			],
+			[
+				"layoutskideal",
+				"views/layouts/skideal.hbs"
+			],
+			[
+				"availi",
+				"public_src/less/accommodation/availability-acc.less"
+			],
+			[
+				"accoles",
+				"public_src/less/accommodation.less"
+			],
+			[
+				"resorless",
+				"public_src/less/resort.less"
+			],
+			[
+				"showsingle",
+				"views/partials/skideal/show-single-skideal.hbs"
+			],
+			[
+				"details",
+				"views/partials/skideal/details-single-skideal.hbs"
+			],
+			[
+				"partialshow",
+				"views/partials/skideal/show-single-skideal.hbs"
+			],
+			[
+				"detail",
+				"controllers/skideal/views/details.hbs"
+			],
+			[
+				"skideale",
+				"public_src/js/skideal-edit.js"
+			],
+			[
+				"skideal/subscribe",
+				"views/partials/skideal/subscribe.hbs"
+			],
+			[
+				"loading-availability-spinner.less",
+				"public_src/less/common/loading-availability-spinner.less"
+			],
+			[
+				"accommodation/availability",
+				"views/partials/accommodation/availability.hbs"
+			],
+			[
+				"acc",
+				"views/layouts/accommodation.hbs"
+			],
+			[
+				"glyphicons.less",
+				"bower_components/bootstrap/less/glyphicons.less"
+			],
+			[
+				"layou",
+				"views/layouts/skideal.hbs"
+			],
+			[
+				"partialgaller",
+				"views/partials/resort/gallery.hbs"
+			],
+			[
+				"hand",
+				"lib/handlebars-helpers.js"
+			],
+			[
+				"layoutskidea",
+				"views/layouts/skideal.hbs"
+			],
+			[
+				"devheade",
+				"views/partials/dev-header.hbs"
+			],
+			[
+				"skideall",
+				"public_src/less/skideal.less"
+			],
+			[
+				"comm",
+				"public_src/js/common.js"
+			],
+			[
+				"meta/comm",
+				"views/partials/meta/common.hbs"
+			],
+			[
+				"resort",
+				"views/partials/resort/gallery.hbs"
+			],
+			[
+				"layoutskida",
+				"views/layouts/skideal.hbs"
+			],
+			[
+				"layout/skideal",
+				"views/layouts/skideal.hbs"
+			],
+			[
+				"resoless",
+				"public_src/less/resort.less"
+			],
+			[
+				"dealless",
+				"public_src/less/skideal.less"
+			],
+			[
+				"meta/common",
+				"views/partials/meta/common.hbs"
+			],
+			[
+				"skidealles",
+				"public_src/less/skideal.less"
+			],
+			[
+				"001",
+				"documents/ponudba-dneva/ski-deals-001.druzinsko-smucanje-v-franciji-za-124EUR-na-osebo.sl.hbs"
+			],
+			[
+				"devhea",
+				"views/partials/dev-header.hbs"
+			],
+			[
+				"devhead",
+				"views/partials/dev-header.hbs"
+			],
+			[
+				"hande",
+				"lib/handlebars-helpers.js"
+			],
+			[
+				"003",
+				"documents/ponudba-dneva/ski-deals-003.privoscite-si-podaljsan-vikend-v-avtenticni-gorski-koci-in-priranihte-88EUR.sl.hbs"
+			],
+			[
+				"resortga",
+				"views/partials/resort/gallery.hbs"
+			],
+			[
+				"002",
+				"documents/ponudba-dneva/ski-deals-002.vikend-oddih-na-nassfeldu-za-samo-17EUR-na-osebo.sl.hbs"
+			],
+			[
+				"su",
+				"public_src/less/documents/subscribe.less"
+			],
+			[
+				"subs",
+				"public_src/less/documents/subscribe.less"
+			],
+			[
+				"narocise",
+				"documents/subscribe.naroci-se.sl.hbs"
+			],
+			[
+				"common-js",
+				"views/partials/common-js.hbs"
+			],
+			[
+				"commonjs",
+				"views/partials/common-js.hbs"
+			],
+			[
+				"ski-dealsless",
+				"public_src/less/documents/ski-deals.less"
+			],
+			[
+				"skidealess",
+				"public_src/less/skideal.less"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"subscribeless",
+				"public_src/less/documents/subscribe.less"
+			],
+			[
+				"ski-deals-00",
+				"documents/ponudba-dneva/ski-deals-001.druzinsko-smucanje-v-franciji-za-124EUR-na-osebo.sl.hbs"
+			],
+			[
+				"dailless",
+				"public_src/less/documents/daily-deal-all.less"
+			],
+			[
+				"dailu",
+				"documents/daily-deal.ponudba-dneva.sl.hbs"
+			],
+			[
+				"de",
+				"views/partials/dev-header.hbs"
+			],
+			[
+				"ski-holida",
+				"public_src/less/documents/ski-holidays.less"
+			],
+			[
+				"mainless",
+				"public_src/less/main.less"
+			],
+			[
+				"footer",
+				"views/partials/footer.hbs"
+			],
+			[
+				"about-us-links",
+				"views/partials/documents/about-us-links.hbs"
+			],
+			[
+				"ski-holidas",
+				"documents/ski-holidays.ski-holidays.en.hbs"
+			],
+			[
+				"footerles",
+				"public_src/less/common/footer.less"
+			],
+			[
+				"ski",
+				"documents/ski-holidays.ski-holidays.en.hbs"
+			],
+			[
+				"ski-",
+				"documents/ski-holidays.skijanje.hr.hbs"
+			],
+			[
+				"common",
+				"views/partials/common-js.hbs"
+			],
+			[
+				"dev",
+				"views/partials/dev-header.hbs"
+			],
+			[
+				"skiholida",
+				"public_src/less/documents/ski-holidays.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"new",
+				"~/Development/mountvacation/mv-new-search/mv-new-search.sublime-project"
+			],
+			[
+				"",
+				"~/Development/mountvacation/mv-new-search/mv-new-search.sublime-project"
+			],
+			[
+				"im",
+				"~/Development/implico/implico.sublime-project"
+			],
+			[
+				"implico",
+				"~/Development/implico/implico.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
