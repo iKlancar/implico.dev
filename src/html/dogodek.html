@@ -13,7 +13,7 @@
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-		<link rel="stylesheet" href="dist/css/style.min.css">
+		<link rel="stylesheet" href="css/style.min.css">
 		<!-- <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css"> -->
 
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -24,34 +24,7 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		<div class="header">
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="/">
-							<img src="/src/img/implico-logo.png" alt="Implico logo">
-						</a>
-					</div>
-					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="/govorci.html">Govorci</a></li>
-							<li class="active"><a href="/dogodek.html">Dogodek</a></li>
-							<li><a href="/program.html">Program</a></li>
-							<li><a href="/blog.html">Blog</a></li>
-							<li><a href="/kdo-smo.html">Kdo smo</a></li>
-							<li><a href="/partnerji.html">Partnerji</a></li>
-							<li><a class="prijava" href="">Prijava</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
+		include "partial/header.html"
 		
 		<div class="content dogodek">
 			<div class="container">
@@ -84,7 +57,7 @@
 										<span class="date">29.1.2015</span>
 									</div>
 									<div class="place">
-										Kristalna palača,<br>Ljubljana BTC
+										BTC City,<br>Kristalna palača
 									</div>
 								</td>
 								<td>
@@ -95,7 +68,7 @@
 										<span class="date">5.2.2015</span>
 									</div>
 									<div class="place">
-										Center SiMobil,<br>Ljubljana BTC
+										BTC City,<br>center SiMobil
 									</div>
 								</td>							
 								<td>
@@ -106,7 +79,7 @@
 										<span class="date">10.2.2015</span>
 									</div>
 									<div class="place">
-										Center SiMobil,<br>Ljubljana BTC
+										BTC City,<br>center SiMobil
 									</div>
 								</td>
 								<td>
@@ -117,7 +90,7 @@
 										<span class="date">12.2.2015</span>
 									</div>
 									<div class="place">
-										Center SiMobil,<br>Ljubljana BTC
+										BTC City,<br>center SiMobil
 									</div>
 								</td>
 							</tr>
@@ -138,7 +111,7 @@
 											<span class="date">29.1.2015</span>
 										</div>
 										<div class="place">
-											Kristalna palača,<br>Ljubljana BTC
+											BTC City,<br>Kristalna palača
 										</div>
 									</td>
 									<td>
@@ -149,7 +122,7 @@
 											<span class="date">5.2.2015</span>
 										</div>
 										<div class="place">
-											Center SiMobil,<br>Ljubljana BTC
+											BTC City,<br>center SiMobil
 										</div>
 									</td>
 								</tr>
@@ -172,7 +145,7 @@
 											<span class="date">10.2.2015</span>
 										</div>
 										<div class="place">
-											Center SiMobil,<br>Ljubljana BTC
+											BTC City,<br>center SiMobil
 										</div>
 									</td>
 									<td>
@@ -183,7 +156,7 @@
 											<span class="date">12.2.2015</span>
 										</div>
 										<div class="place">
-											Center SiMobil,<br>Ljubljana BTC
+											BTC City,<br>center SiMobil
 										</div>
 									</td>
 								</tr>
@@ -208,7 +181,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="event-infographic">
-							<img class="img-responsive" src="/src/img/event-infographic.png" alt="">
+							<img class="img-responsive" src="img/event-infographic.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -216,11 +189,7 @@
 			</div>
 		</div>
 		
-		<footer class="footer">
-			<div class="container">
-				<p>Place sticky footer content here.</p>
-			</div>
-		</footer>
+		include "partial/footer.html"
 
 		<!-- Calling Google Open Sans Typography -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

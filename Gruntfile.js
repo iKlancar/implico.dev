@@ -18,30 +18,19 @@ module.exports = function(grunt) {
 				ext  :'.min.css'
 			}
 		},
-		watch: {
-			options: {
-				interval: 1500
-			},
-			allWatchedFiles: ['src/templates/*.hbs', 'src/*.js', 'dist/css/*'],
-			allWatchedFiles: ['dist/css/*'],
-			less: {
-				files: ['src/less/**/*.less'],
-				tasks: ['less']
-			},
-			css: {
-				// Here we watch the files the less task will compile to
-				// These files are sent to the live reload server after less compiles to them
-				options: { livereload: 35729 },
-				files: ['dist/css/*']
-			},
-			html: {
-				files: ['**/*.html','**/*.css'],
-				options: {
-					livereload: true
-				}
+		clean: ["dist"],
+		includes: {
+			files: {
+				src: ['src/html/*.html'], // Source files
+				dest: 'dist', // Destination directory
+				flatten: true,
+				cwd: '.'
+				// options: {
+					// silent: true,
+					// template: '{{fileName}}';
+				// }
 			}
 		},
-		clean: ["dist"],
 		copy: {
 			'glyphicon': {
 				files: [
@@ -51,17 +40,61 @@ module.exports = function(grunt) {
 						src: ['src/fonts/*'],
 						dest: 'dist/fonts',
 						flatten: true,
-						filter: 'isFile'}
-					],
-				},
+						filter: 'isFile'
+					}
+				]
 			},
+			'img': {
+				files: [
+					// includes files within path
+					{
+						expand: true,
+						cwd: 'src/img',
+						src: '**/*', // copy all files and subfolders
+						dest: 'dist/img',
+						filter: 'isFile',
+						flatten: true,
+					}
+				]
+			},
+			'js': {
+				files: [
+					// includes files within path
+					{
+						expand: true,
+						cwd: 'src/js',
+						src: '**/*', // copy all files and subfolders
+						dest: 'dist/js',
+						filter: 'isFile',
+						// flatten: true,
+					}
+				]
+			}
+		},
+		watch: {
+			options: {
+				interval: 1500
+			},
+			less: {
+				files: ['src/less/**/*.less'],
+				tasks: ['less'],
+				options: {
+					livereload: true
+				}
+			},
+			html: {
+				files: ['src/html/**/*.html'],
+				tasks: ['includes'],
+				options: {
+					livereload: true
+				}
+			}
+		}
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-contrib-less');
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-copy');
+	// Load Grunt plugins
+    require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
 	// grunt.registerTask('default', ['clean', 'less']);
-	grunt.registerTask('default', ['clean', 'less', 'copy:glyphicon']);
+	grunt.registerTask('default', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js']);
 };
