@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css"> -->
+
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<!-- Add your site or application content here -->
+		include "partial/header.html"
+		
+		<div class="content prijava">
+			<div class="container">
+				<h1>Prijava na implico</h1>
+				<p class="lead"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam assumenda corporis quibusdam blanditiis quam, officia molestiae! Nesciunt explicabo vitae, reiciendis repellendus, nostrum.</span></p>
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident repellendus odio mollitia, vitae, quae harum temporibus perspiciatis nulla blanditiis laboriosam ab eum, delectus! Esse expedita officiis sequi quis, tempore, quidem.</span><span>Natus corporis ipsam nihil temporibus quis in fugiat, aperiam sequi magnam iste sed tempore molestias sit aliquid veniam maiores culpa ipsum. Consequatur dolorum eius provident illo illum repudiandae quasi voluptatum.</span></p>
+
+				<div class="row">
+					<div class="col-sm-6 col-md-4">
+						<div class="package">
+							<div class="head">
+								<div class="title">Žirafa</div>
+								<div class="price-old">60€</div>
+								<div class="price-new">48€</div>
+							</div>
+							<div class="body">
+								<div class="included">Žirafa (29. januar 2015)</div>
+								<div class="included disabled">Puzla 1 (5. 2. 2015)</div>
+								<div class="included disabled">Puzla 2 (10. 2. 2015)</div>
+								<div class="included disabled last">Puzla 3 (12. 2. 2015)</div>
+							</div>
+							<div class="foot">
+								<a href="" class="btn" data-toggle="modal" data-target="#send-application-to-mailchimp">Prijavi se</a>
+								<div class="attention">
+									Nismo zavezanci za DDV, cena je končna.<br>Različni popusti se med seboj ne seštevajo.
+								</div>
+							</div>
+							<div class="ribbon"><img src="img/earlybird-ribbon.png"></div>
+							<div class="tag a"><img src="img/ribbon-tag-a.png"></div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="package">
+							<div class="head">
+								<div class="title">Žirafa + vse 3 puzle</div>
+								<div class="price-old">120€</div>
+								<div class="price-new">96€</div>
+							</div>
+							<div class="body">
+								<div class="included">Žirafa (29. januar 2015)</div>
+								<div class="included">Puzla 1 (5. 2. 2015)</div>
+								<div class="included">Puzla 2 (10. 2. 2015)</div>
+								<div class="included last">Puzla 3 (12. 2. 2015)</div>
+							</div>
+							<div class="foot">
+								<a href="" class="btn" data-toggle="modal" data-target="#send-application-to-mailchimp">Prijavi se</a>
+								<div class="attention">
+									Nismo zavezanci za DDV, cena je končna.<br>Različni popusti se med seboj ne seštevajo.
+								</div>
+							</div>
+							<div class="ribbon"><img src="img/earlybird-ribbon.png"></div>
+							<div class="tag b"><img src="img/ribbon-tag-b.png"></div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Modal -->
+				<div class="modal fade" id="send-application-to-mailchimp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-body clearfix">
+								<div class="col-md-12">
+									<div class="form clearfix">
+
+										<h2>Implico prijavnica</h2>
+
+										<div class="mailchimp">
+											
+											include "partial/form.html"
+
+										</div>
+										<div class="foot">
+											<div class="attention">
+												Po oddaji prijave boste prejeli potrditev na vnešen e-naslov.<br>Neporavnan račun v naslednjih 7 dneh od prejema pomeni zapadlo prijavo.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		include "partial/footer.html"
+
+		include "partial/include-after-body.html"
+
+		include "partial/google-analytics.html"
+		
+	</body>
+</html>

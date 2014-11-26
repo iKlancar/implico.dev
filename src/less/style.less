@@ -7,12 +7,12 @@ html {
   min-height: 100%;
 }
 body {
-  margin-bottom: 230px; // footer height here
+  margin-bottom: 200px; // footer height here
 }
 
 
 body > .container {
-  padding: 230px 15px 0; // footer height here
+  padding: 230px 150x 0; // footer height here
 }
 .container .text-muted {
   margin: 20px 0;
@@ -155,7 +155,7 @@ body {
 					height: 100%;
 					// background-repeat: no-repeat;
 					// background-position: 95% 95%;
-					// background-image: url('/src/img/linkedin-icon.png');
+					// background-image: url('/img/linkedin-icon.png');
 				}
 
 				.overlay {
@@ -264,7 +264,7 @@ body {
 					height: 100%;
 					// background-repeat: no-repeat;
 					// background-position: 95% 95%;
-					// background-image: url('/src/img/linkedin-icon.png');
+					// background-image: url('/img/linkedin-icon.png');
 				}
 
 				.overlay {
@@ -346,6 +346,58 @@ body {
 	}
 
 	&.dogodek {
+		.mood {
+			position: relative;
+
+			@media (min-width: @screen-sm-min) {
+				.anim-holder {
+					// background: red;
+					z-index: -1;
+					width: 720px;
+					height: 404px;
+					position: absolute;
+					overflow: hidden;
+					top: -40px;
+				}
+
+				.anim-spacer {
+					height: 260px;
+				}
+			}
+
+			@media (min-width: @screen-md-min) {
+				.anim-holder {
+					// background: red;
+					z-index: -1;
+					width: 940px;
+					height: 528px;
+					position: absolute;
+					overflow: hidden;
+					top: -50px;
+				}
+
+				.anim-spacer {
+					height: 350px;
+				}
+			}
+
+			@media (min-width: @screen-lg-min) {
+				.anim-holder {
+					// background: red;
+					z-index: -1;
+					width: 1140px;
+					height: 640px;
+					position: absolute;
+					overflow: hidden;
+					top: -50px;
+				}
+
+				.anim-spacer {
+					height: 430px;
+				}
+			}
+		}
+
 		.timetable {
 			margin-top: 30px;
 			margin-bottom: 50px;
@@ -355,7 +407,7 @@ body {
 				text-align: center;
 
 				th {
-					background-image: url('/src/img/event-line.jpg');
+					background-image: url('/img/event-line.jpg');
 					background-repeat: repeat-x;
 					background-position: center;
 					text-align: center;
@@ -423,13 +475,13 @@ body {
 				width: 100%;
 
 				th {
-					background-image: url('/src/img/event-line.jpg');
+					background-image: url('/img/event-line.jpg');
 					background-repeat: repeat-y;
 					background-position: center;
 					text-align: center;
 
 					&.event-line-edning {
-						background-image: url('/src/img/event-line-ending.png');
+						background-image: url('/img/event-line-ending.png');
 						background-repeat: no-repeat;
 						background-position: center top;
 						height: 100px;
@@ -540,7 +592,7 @@ body {
 					height: 100%;
 					// background-repeat: no-repeat;
 					// background-position: 95% 95%;
-					// background-image: url('/src/img/linkedin-icon.png');
+					// background-image: url('/img/linkedin-icon.png');
 				}
 
 				.overlay {
@@ -621,6 +673,194 @@ body {
 		}
 	}
 
+	&.prijava {
+		.package {
+			background: @implico-f;
+			text-align: center;
+			font-size: 18px;
+			position: relative;
+			margin-bottom: 50px;
+			margin-top: 25px;
+
+			.head {
+				padding: 15px 20px 0px 20px;
+				background-color: @implico-3;
+				color: @implico-f;
+				background-image: url('/img/elipse.png');
+				background-position: center 50px;
+				background-repeat: no-repeat;
+
+				.title {
+					text-transform: uppercase;
+					font-weight: bold;
+					padding-bottom: 20px;
+				}
+
+				.price-old {
+					color: @implico-2;
+					font-weight: bold;
+					text-decoration: line-through;
+				}
+
+				.price-new {
+					color: @implico-3;
+					font-weight: bold;
+					font-size: 50px;
+					margin-top: -10px;
+				}
+			}
+
+			.body {
+				padding: 30px 20px 20px 20px;
+				border-left: 1px solid @implico-d;
+				border-right: 1px solid @implico-d;
+				
+				.included {
+					padding: 10px 20px;
+					border-bottom: 1px solid @implico-d;
+					color: @implico-3;
+
+					&.last {
+						border: none;
+					}
+
+					&.disabled {
+						color: @implico-5;
+						text-decoration: line-through;
+						opacity: .5;
+					}
+				}
+			}
+
+			.foot {
+				padding: 0px 20px 20px 20px;
+				border-left: 1px solid @implico-d;
+				border-right: 1px solid @implico-d;
+				border-bottom: 1px solid @implico-d;
+
+				.btn {
+					width: 100%;
+					max-width: 200px;
+					border: 2px solid @implico-3;
+					color: @implico-3;
+					font-weight: 500;
+					text-transform: uppercase;
+					outline: 0;
+
+					&:hover {
+						background-color: @implico-3;
+						color: @implico-f;
+					}
+				}
+
+				.attention {
+					font-size: 12px;
+					color: @implico-5;
+					opacity: .5;
+					padding-top: 20px;
+				}
+			}
+
+			.ribbon {
+				position: absolute;
+				top: 124px;
+				left: -5px;
+			}
+
+			.tag.a {
+				position: absolute;
+				top: 121px;
+				left: 180px;
+			}
+
+			.tag.b {
+				position: absolute;
+				top: 122px;
+				left: 166px;
+			}
+		}
+
+		.form {
+			background: @implico-f;
+			margin-top: 25px;
+
+			h2 {
+				text-align: center;
+				color: @implico-9;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 24px;
+				margin: 0 0 20px 0;
+			}
+
+			.mailchimp	{
+				padding: 20px 20px 0 20px;
+
+				label {
+					font-weight: normal;
+					color: @implico-3;
+					text-transform: uppercase;
+					margin: 0;
+
+					span {
+						text-transform: none;
+						color: @implico-5;
+					}
+				}
+
+				input {
+					margin-bottom: 15px;
+					width: 100%;
+					padding: 5px 8px;
+					color: @implico-5;
+					outline: 0;
+
+					&.btn {
+						margin-bottom: 0;
+					}
+				}
+
+				select {
+					width: 100%;
+					margin-bottom: 20px;
+					font-size: 24px;
+					margin-top: 5px;
+				}
+
+				.asterisk {
+					color: @implico-1;
+					font-weight: bold;
+				}
+
+				.btn {
+					width: 100%;
+					max-width: 200px;
+					border: 2px solid @implico-3;
+					color: @implico-3;
+					font-weight: 500;
+					text-transform: uppercase;
+					background-color: @implico-f;
+					outline: 0;
+
+					&:hover {
+						background-color: @implico-3;
+						color: @implico-f;
+					}
+				}
+			}
+
+			.foot {
+				.attention {
+					font-size: 12px;
+					color: @implico-5;
+					opacity: .5;
+					padding-top: 20px;
+					text-align: right;
+				}
+			}
+		}
+	}
+
 	padding-bottom: 60px;
 }
 
@@ -628,10 +868,48 @@ body {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 230px; // footer height here
+	min-height: 200px; // footer height here
 
 	background-color: #282828;
 	color: @implico-5;
+
+	.cta {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #202020;
+		margin-bottom: 10px;
+
+		a {
+			color: @implico-5;
+		}
+
+		span {
+			margin: 0 5px;
+			display: inline-block;
+		}
+
+	}
+
+	.fb,
+	.mail {
+		margin-right: 10px;
+	}
+	
+	.title {
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 15px;
+		margin-bottom: 5px;
+	}
+
+	.txt {
+		font-size: 14px;
+	}
+
+	table td {
+		vertical-align: top;
+		width: 160px;
+	}
 }
 
 
