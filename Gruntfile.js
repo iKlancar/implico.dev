@@ -102,12 +102,40 @@ module.exports = function(grunt) {
 					livereload: true
 				}
 			}
-		}
+		},
+		'ftp-deploy': {
+			'production': {
+				auth: {
+					host: 'ftp.implico.si',
+					port: 21,
+					authKey: 'implicoKey'
+				},
+				src: 'dist',
+				dest: '/public_html/development',
+				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp'],
+				server_sep: '/'
+			}
+		},
 	});
 
 	// Load Grunt plugins
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
 	// grunt.registerTask('default', ['clean', 'less']);
-	grunt.registerTask('default', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim']);
+	grunt.registerTask('dev', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim']);
+	grunt.registerTask('production', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim', 'ftp-deploy:production']);
+
+	grunt.task.registerTask('default', 'default', function(id, debug) {
+	// grunt.log.subhead('Use the following:');
+	// grunt.log.writeln('--------------------------------------------------------------------------------------');
+	grunt.log.writeln('');
+	grunt.log.subhead('grunt dev');
+	grunt.log.writeln('Builds all files for local development. Availible at "www.implico.dev".');
+	grunt.log.subhead('grunt production');
+	grunt.log.writeln('Builds all files and ftp to live server. Availible at "www.implico.si".');
+
+});
 };
+
+
+
