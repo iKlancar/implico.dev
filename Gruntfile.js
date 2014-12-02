@@ -69,6 +69,19 @@ module.exports = function(grunt) {
 						// flatten: true,
 					}
 				]
+			},
+			'anim': {
+				files: [
+					// includes files within path
+					{
+						expand: true,
+						cwd: 'src/anim',
+						src: '**/*', // copy all files and subfolders
+						dest: 'dist/anim',
+						filter: 'isFile',
+						// flatten: true,
+					}
+				]
 			}
 		},
 		watch: {
@@ -96,5 +109,5 @@ module.exports = function(grunt) {
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
 	// grunt.registerTask('default', ['clean', 'less']);
-	grunt.registerTask('default', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js']);
+	grunt.registerTask('default', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim']);
 };

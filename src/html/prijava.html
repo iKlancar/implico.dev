@@ -24,13 +24,44 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		include "partial/header.html"
+		<!-- include "partial/header.html" -->
+
+		<div class="header">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/implico-logo.png" alt="Implico logo">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="govorci.html">Govorci</a></li>
+							<li><a href="dogodek.html">Dogodek</a></li>
+							<li><a href="program.html">Program</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="kdo-smo.html">Kdo smo</a></li>
+							<li><a href="partnerji.html">Partnerji</a></li>
+							<li class="active"><a href="prijava.html" class="prijava">Prijavi se</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 		
 		<div class="content prijava">
 			<div class="container">
+				
 				<h1>Prijava na implico</h1>
-				<p class="lead"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam assumenda corporis quibusdam blanditiis quam, officia molestiae! Nesciunt explicabo vitae, reiciendis repellendus, nostrum.</span></p>
-				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident repellendus odio mollitia, vitae, quae harum temporibus perspiciatis nulla blanditiis laboriosam ab eum, delectus! Esse expedita officiis sequi quis, tempore, quidem.</span><span>Natus corporis ipsam nihil temporibus quis in fugiat, aperiam sequi magnam iste sed tempore molestias sit aliquid veniam maiores culpa ipsum. Consequatur dolorum eius provident illo illum repudiandae quasi voluptatum.</span></p>
+				<p class="lead">Kadrov(n)ik s pravimi kompetencami in razvojno naravnanimi znanji, z znanji prihodnosti, je zelo zaželen. Pristavi v svoj puzzle tudi znanja, ki ti jih ponuja Implico!</p>
+				<p>Implico ekipa, Slovenska kadrovska zveza, partnerji in podporniki modularnega izobraževanja Implico uresničujemo svoje poslanstvo na kadrovskem področju, zato z vlaganjem v razvoj mladih posameznikov in podjetij omogočamo nizkocenovne kotizacije za udeležbo na izobraževanju!</p>
+				<p>Pri prijavi bodi pozoren na izbiro pravega paketa. Ne pozabi, da lahko Puzzle 1, 2 in 3 obiskuješ kot mlad kadrov(n)ik ali predstavnik start-up oz. manjšega podjetja (glej zavihek Program). Sedaj pa kar pohiti s klikom na gumb Prijavi se, število mest je omejeno!</p>
 
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
@@ -42,9 +73,9 @@
 							</div>
 							<div class="body">
 								<div class="included">Žirafa (29. januar 2015)</div>
-								<div class="included disabled">Puzla 1 (5. 2. 2015)</div>
-								<div class="included disabled">Puzla 2 (10. 2. 2015)</div>
-								<div class="included disabled last">Puzla 3 (12. 2. 2015)</div>
+								<div class="included disabled">Puzzle 1 (5. 2. 2015)</div>
+								<div class="included disabled">Puzzle 2 (10. 2. 2015)</div>
+								<div class="included disabled last">Puzzle 3 (12. 2. 2015)</div>
 							</div>
 							<div class="foot">
 								<a href="" class="btn" data-toggle="modal" data-target="#send-application-to-mailchimp">Prijavi se</a>
@@ -59,15 +90,15 @@
 					<div class="col-sm-6 col-md-4">
 						<div class="package">
 							<div class="head">
-								<div class="title">Žirafa + vse 3 puzle</div>
+								<div class="title">Žirafa + vse 3 puzzle</div>
 								<div class="price-old">120€</div>
 								<div class="price-new">96€</div>
 							</div>
 							<div class="body">
 								<div class="included">Žirafa (29. januar 2015)</div>
-								<div class="included">Puzla 1 (5. 2. 2015)</div>
-								<div class="included">Puzla 2 (10. 2. 2015)</div>
-								<div class="included last">Puzla 3 (12. 2. 2015)</div>
+								<div class="included">Puzzle 1 (5. 2. 2015)</div>
+								<div class="included">Puzzle 2 (10. 2. 2015)</div>
+								<div class="included last">Puzzle 3 (12. 2. 2015)</div>
 							</div>
 							<div class="foot">
 								<a href="" class="btn" data-toggle="modal" data-target="#send-application-to-mailchimp">Prijavi se</a>
@@ -98,7 +129,7 @@
 										</div>
 										<div class="foot">
 											<div class="attention">
-												Po oddaji prijave boste prejeli potrditev na vnešen e-naslov.<br>Neporavnan račun v naslednjih 7 dneh od prejema pomeni zapadlo prijavo.
+												Po oddaji prijave boste prejeli potrditev na vnešen e-naslov.<br>Neporavnan račun v naslednjih 5 dneh od prejema pomeni zapadlo prijavo.
 											</div>
 										</div>
 									</div>

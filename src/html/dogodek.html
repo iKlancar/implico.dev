@@ -24,42 +24,77 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		include "partial/header.html"
+		<!-- include "partial/header.html" -->
+
+		<div class="header">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/implico-logo.png" alt="Implico logo">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="govorci.html">Govorci</a></li>
+							<li class="active"><a href="dogodek.html">Dogodek</a></li>
+							<li><a href="program.html">Program</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="kdo-smo.html">Kdo smo</a></li>
+							<li><a href="partnerji.html">Partnerji</a></li>
+							<li><a href="prijava.html" class="prijava">Prijavi se</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 		
 		<div class="content dogodek">
 			<div class="container">
 				
-				<div class="mood">
+				<div class="mood hidden-xs">
 					<div class="anim-holder">
-						<video width="100%" poster="img/poster_04.jpg" autoplay="" loop="" id="video">
-							<source src="anim/program-movie.mp4" type="video/mp4">
-							<source src="anim/program-movie.ogg" type="video/ogg">
-							<img src="img/poster_04.jpg" id="fallback">
+						<video poster="anim/dogodek-movie.jpg" autoplay="" loop="" id="video">
+							<source width="100%" src="anim/dogodek-movie.mp4" type="video/mp4">
+							<!-- <source width="100%" src="anim/dogodek-movie.ogg" type="video/ogg"> -->
+							<img width="100%" src="anim/dogodek-movie.jpg" id="fallback">
 							Your browser does not support the video tag.
 						</video>
+						<div class="scotch-tape hidden-sm"></div>
 					</div>
 					<div class="anim-spacer"></div>
 				</div>
-				
+
 				<h1>Implico dogodek</h1>
-				
-				<!-- <div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:380px; margin-bottom: 20px;"></div> -->
-
-
-
-				<!-- <video width="100%" poster="img/poster_04.jpg" autoplay="" loop="" id="video">
-					<source src="video/homepage_hd.webmhd.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-					<source src="video/homepage_hd.mp4.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-					<source src="video/homepage_hd.oggtheora.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
-					<img src="img/poster_04.jpg" id="fallback">
-				</video> -->
 
 				<div class="row">
-					<div class="col-md-12">
-						<p class="lead">Implico je modularno izobraževanje<br> za mlade kadrovnike, start-upe in manjša podjetja.</p>
-						<p>Razdeljeno je v 4 ločene dogodke, začnemo že 29. januarja z uvodnim celodnevnem dogodkom, ki smo ga po naši maskoti poimenovali kar Žirafa, le ta bo naznanjal začetek Implica in predstavljal uvod v nadaljnje module oziroma puzle, hkrati pa nudil svojo zaključeno vsebino na področju strateškega kadrovanja in menedžmenta sprememb. Sledijo 3 tematski moduli, ki se bodo predvsem ukvarjali z slednjimi HR vsebinami: TOP OF HRM, SELL THE HR in WORK LIFE BALANCE.</p>
+					<div class="col-md-6">
+						<p class="lead">Implico - modularno izobraževanje za mlade kadrov(n)ike, start-upe in manjša podjetja</p>
+						<p>Izobraževanje je razdeljeno na 4 ločene dogodke. Na pot znanja se bomo podali 29. januarja, z uvodnim celodnevnim dogodkom, ki je svoje ime dobil po naši maskoti - Žirafi. Žirafa naznanja začetek Implica, predstavlja uverturo v nadaljnje module, hkrati pa nudi zaključeno celoto vsebin na področju strateškega kadrovanja in menedžmenta sprememb.</p>
 					</div>
 				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="quote small">
+							<p>“Izobraževanje je razdeljeno na 4 ločene dogodke - uvodnik, TOP of HRM, SELL the HR in WORK LIFE BALANCE.”</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<p>Po Žirafi se bo naša pot nadaljevala 5., 10. in 12. februarja, ko bomo na modulih, katere smo poimenovali Puzzle 1, 2 in 3, dopolnjevali našo HR sestavljanko z manjkajočimi koščki z vsebinami iz: TOP of HRM, SELL the HR in WORK LIFE BALANCE.</p>
+					</div>
+				</div>
+
+
 				
 				<div class="row">	
 					<div class="col-md-12 timetable">
@@ -73,46 +108,46 @@
 							<tr>
 								<td>
 									<div class="event">
-										<span class="name">Žirafa 0</span>
+										<span class="name">Žirafa</span>
 										<span class="hidden-md hidden-lg"><br></span>
 										<span class="hidden-sm"> - </span>
-										<span class="date">29.1.2015</span>
+										<span class="date">29. 1. 2015</span>
 									</div>
 									<div class="place">
-										BTC City,<br>Kristalna palača
+										(BTC City,<br>Kristalna palača)
 									</div>
 								</td>
 								<td>
 									<div class="event">
-										<span class="name">PUZLA 1</span>
+										<span class="name">PUZZLE 1</span>
 										<span class="hidden-md hidden-lg"><br></span>
 										<span class="hidden-sm"> - </span>
-										<span class="date">5.2.2015</span>
+										<span class="date">5. 2. 2015</span>
 									</div>
 									<div class="place">
-										BTC City,<br>center SiMobil
+										(BTC City,<br>center Si.Mobil)
 									</div>
 								</td>							
 								<td>
 									<div class="event">
-										<span class="name">PUZLA 2</span>
+										<span class="name">PUZZLE 2</span>
 										<span class="hidden-md hidden-lg"><br></span>
 										<span class="hidden-sm"> - </span>
-										<span class="date">10.2.2015</span>
+										<span class="date">10. 2. 2015</span>
 									</div>
 									<div class="place">
-										BTC City,<br>center SiMobil
+										(BTC City,<br>center Si.Mobil)
 									</div>
 								</td>
 								<td>
 									<div class="event">
-										<span class="name">PUZLA 3</span>
+										<span class="name">PUZZLE 3</span>
 										<span class="hidden-md hidden-lg"><br></span>
 										<span class="hidden-sm"> - </span>
-										<span class="date">12.2.2015</span>
+										<span class="date">12. 2. 2015</span>
 									</div>
 									<div class="place">
-										BTC City,<br>center SiMobil
+										(BTC City,<br>center Si.Mobil)
 									</div>
 								</td>
 							</tr>
@@ -190,12 +225,12 @@
 				
 				<div class="row">	
 					<div class="col-md-6">
-						<p>Z inovativnim holističnim pristopom, odličnimi predavatelji iz sveta gospodarstva ter primeri dobrih praks želimo udeležencem nuditi kakovostno in uporabno znanje s področja kadrovanja in menedžmenta na splošno. Tovrstne vsebine bodo lahko že naslednji dan uporabili v svojem poslovnem življenju. Mladi kadroviki bodo tako lahko okrepili že obstoječe znanje in ga nadgradili s praktičnimi primeri rešitev v svetu kadrovanja, medtem ko se bodo start-upi in manjša podjetja lahko seznanila in naučila izvajati nujne osnove menedžmenta in kadrovanja za svoja podjetja.</p>
-						<p>Izobraževanje organiziramo <b class="color-implico-3">Mladi eksperti kadrovske stroke (MEKS)</b>, sekcija <b class="color-implico-3">Slovenske Kadrovske Zveze</b>, ker želimo kadrovsko funkcijo pozicionirati na višjo raven. Hkrati pa ozavestiti mlade kadrovnike in podjetnike o pomenu kadrovske stroke kot strateško pomembne funkcije vsakega podjetja.</p>
+						<p>Z inovativnim holističnim pristopom, odličnimi predavatelji iz sveta gospodarstva in primeri dobrih praks, želimo ponuditi kakovostno ter uporabno znanje s področja kadrovanja in splošnega menedžmenta. Tovrstne vsebine boste lahko že naslednji dan uporabili v svojem poslovnem življenju; mladi kadrov(n)iki boste okrepili že obstoječe znanje in ga nadgradili s primeri uspešnih rešitev uveljavljenih podjetij, medtem ko se boste start-upi ter manjša podjetja seznanila in naučila izvajati pomembne osnove menedžmenta ter kadrovanja.</p>
+						<p>Izobraževanje organiziramo <a href="http://www.meks.si/"><b class="color-implico-3">Mladi eksperti kadrovske stroke (MEKS)</b></a>, sekcija mladih <a href="http://www.skz.si/"><b class="color-implico-3">Slovenske Kadrovske Zveze (SKZ)</b></a>. Vodi nas želja po doprinosu k razvoju kadrovske funkcije in njenem pozicioniranju na višjo raven, hkrati pa želja po ozaveščanju mladih kadrov(n)ikov in podjetnikov o pomenu kadrovske stroke, kot strateško pomembne funkcije vsakega podjetja.</p>
 					</div>
 					<div class="col-md-6">
 						<div class="quote">
-							<p>“Tovrstne vsebine bodo lahko že naslednji dan uporabili v svojem poslovnem življenju.”</p>
+							<p>“Tovrstne vsebine boste lahko že naslednji dan uporabili v svojem poslovnem življenju.”</p>
 						</div>
 					</div>
 				</div>

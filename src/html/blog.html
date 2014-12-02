@@ -24,18 +24,60 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		include "partial/header.html"
+		<!-- include "partial/header.html" -->
+
+		<div class="header">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/implico-logo.png" alt="Implico logo">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="govorci.html">Govorci</a></li>
+							<li><a href="dogodek.html">Dogodek</a></li>
+							<li><a href="program.html">Program</a></li>
+							<li class="active"><a href="blog.html">Blog</a></li>
+							<li><a href="kdo-smo.html">Kdo smo</a></li>
+							<li><a href="partnerji.html">Partnerji</a></li>
+							<li><a href="prijava.html" class="prijava">Prijavi se</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 		
 		<div class="content blog">
 			<div class="container">
-				<h1>Implico blog: Od ideje do izvedbe...</h1>
+
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Implico blog: Od ideje do izvedbe...</h1>
+						<p class="lead">Odločili smo se za tisto energičnost, razmišljanje out of the box, željo po spreminjanju sveta, za vse tisto, kar tako pogrešamo pri gledanju večernih poročil. Odločili smo se dati kadrovski stroki Implico – modularno izobraževanje iz kadrovskega področja!</p>
+					</div>
+				</div>
 				
-				<div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:380px; margin-bottom: 20px;"></div>
+				<!-- <div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:380px; margin-bottom: 20px;"></div> -->
+
+				<div class="mood" style="background-image: url('img/implico-blog-od-ideje-do-izvedbe.jpg');"></div>
 				
 				<div class="row">
 					<div class="col-md-9">
 						<div class="posted"><b>Objavljeno:</b> 16. november 2014</div>
-						<div class="social"></div>
+						<div class="social">
+							
+							include "partial/addthis.html"
+
+						</div>
+
 						<p>Tako, pa gremo v živo..KONČNO! Po enoletnem razmišljanju, debatiranju, stiskanju glav skupaj in spraševanju samih sebe, ali je to tisto kar kadrovska stroka v Sloveniji potrebuje, smo si enoglasno odgovorili: »Kakorkoli že, to ji želimo dati!«. In smo šli v akcijo ...</p>
 
 						<p>Izhajali smo seveda iz vseh ničkolikokrat izpostavljenih težav našega izobraževalnega sistema, iz vseh trenutnih težav našega gospodarstva, klestenju budgeta za izobraževanja  v podjetjih, zaspanosti kadrovske stroke in pogrešanja proaktivnosti mlade generacije. Tako smo se odločili za tisto energičnost, razmišljanje »out of the box«, željo po spreminjanju sveta, za vse tisto, kar tako pogrešamo pri gledanju večernih poročil. Odločili smo se dati kadrovski stroki Implico – modularno izobraževanje iz kadrovskega področja.</p>

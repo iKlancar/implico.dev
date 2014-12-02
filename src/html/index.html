@@ -25,12 +25,52 @@
 
 		<!-- Add your site or application content here -->
 
-		include "partial/header.html"
+		<!-- include "partial/header.html" -->
+
+		<div class="header">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/implico-logo.png" alt="Implico logo">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="govorci.html">Govorci</a></li>
+							<li><a href="dogodek.html">Dogodek</a></li>
+							<li><a href="program.html">Program</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="kdo-smo.html">Kdo smo</a></li>
+							<li><a href="partnerji.html">Partnerji</a></li>
+							<li><a href="prijava.html" class="prijava">Prijavi se</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 		
 		<div class="content program">
 			<div class="container">
 				
-				
+				<div class="mood">
+					<div class="anim-holder">
+						<video width="100%" poster="anim/index-movie.jpg" autoplay="" loop="" id="video">
+							<source src="anim/index-movie.mp4" type="video/mp4">
+							<!-- <source src="anim/index-movie.ogg" type="video/ogg"> -->
+							<img src="anim/index-movie.jpg" id="fallback">
+							Your browser does not support the video tag.
+						</video>
+						<!-- <div class="scotch-tape hidden-sm"></div> -->
+					</div>
+					<div class="anim-spacer"></div>
+				</div>
 
 			</div>
 		</div>

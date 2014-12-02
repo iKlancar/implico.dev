@@ -129,6 +129,8 @@ body {
 
 	&.govorci {
 		.speaker {
+			margin-bottom: 50px;
+
 			.img {
 				@media (max-width: @screen-md-max) {height: 160px;}
 				@media (min-width: @screen-lg-min) {height: 200px;}
@@ -143,7 +145,15 @@ body {
 				margin-bottom: 10px;
 				position: relative;
 
+				margin-top: 1px;
+
 				.linkedin-icon {
+					position: absolute;
+					right: 10px;
+					bottom: 10px;
+				}
+
+				.bookmark-icon {
 					position: absolute;
 					right: 10px;
 					bottom: 10px;
@@ -153,9 +163,6 @@ body {
 					position: absolute;
 					width: 100%;
 					height: 100%;
-					// background-repeat: no-repeat;
-					// background-position: 95% 95%;
-					// background-image: url('/img/linkedin-icon.png');
 				}
 
 				.overlay {
@@ -231,10 +238,126 @@ body {
 					font-size: 10px;
 				}
 			}
+
+			.about {
+				background: #F5F5F5;
+				padding: 15px;
+				border: 1px solid @implico-d;
+
+				.opis {
+					color: @implico-5;
+					text-align: justify;
+
+					&.govorca {}
+					&.delavnice {}
+
+					.title {
+						text-transform: uppercase;
+						font-size: 12px;
+						font-weight: bold;
+					}
+				}
+				
+				hr {
+					border-top: 1px dashed @implico-9;
+				}
+			}
+
+			&:hover {
+				.img {
+					.overlay {display: none;}
+					table {display: none;}
+				}
+				.about {
+					background: @implico-f;
+				}
+			}
 		}		
 	}
 
 	&.kdo-smo {
+		.mood {
+			position: relative;
+			// margin-top: 30px;
+
+			@media (min-width: @screen-sm-min) {
+				video#video {
+					position: absolute;
+					width: 102%;
+					left: -2px;
+				}
+
+				.anim-holder {
+					z-index: -1;
+					width: 720px;
+					height: 404px;
+					position: absolute;
+					overflow: hidden;
+					top: -40px;
+				}
+
+				.anim-spacer {
+					height: 100px;
+				}
+			}
+
+			@media (min-width: @screen-md-min) {
+				video#video {
+					position: absolute;
+					// left: 200px;
+				}
+
+				.anim-holder {
+					z-index: -1;
+					width: 940px;
+					height: 600px;
+					position: absolute;
+					overflow: hidden;
+					top: -25px;
+				}
+
+				.anim-spacer {
+					height: 0px;
+				}
+
+				.scotch-tape {
+					background: @implico-e;
+					width: 10px;
+					height: 550px;
+					position: absolute;
+					left: 195px;
+				}
+			}
+
+			@media (min-width: @screen-lg-min) {
+				video#video {
+					position: absolute;
+					// left: 230px;
+				}
+
+				.anim-holder {
+					z-index: -1;
+					width: 1140px;
+					height: 640px;
+					position: absolute;
+					overflow: hidden;
+					top: -25px;
+				}
+
+				.anim-spacer {
+					height: 0px;
+				}
+
+				.scotch-tape {
+					background: @implico-e;
+					width: 10px;
+					height: 700px;
+					position: absolute;
+					// left: 225px;
+				}
+			}
+		}
+
 		.team-member {
 			margin-bottom: 30px;
 
@@ -264,7 +387,7 @@ body {
 					height: 100%;
 					// background-repeat: no-repeat;
 					// background-position: 95% 95%;
-					// background-image: url('/img/linkedin-icon.png');
+					// background-image: url('../img/linkedin-icon.png');
 				}
 
 				.overlay {
@@ -348,10 +471,16 @@ body {
 	&.dogodek {
 		.mood {
 			position: relative;
+			// margin-top: 10px;
 
 			@media (min-width: @screen-sm-min) {
+				video#video {
+					position: absolute;
+					width: 102%;
+					left: -2px;
+				}
+
 				.anim-holder {
-					// background: red;
 					z-index: -1;
 					width: 720px;
 					height: 404px;
@@ -361,29 +490,45 @@ body {
 				}
 
 				.anim-spacer {
-					height: 260px;
+					height: 300px;
 				}
 			}
 
 			@media (min-width: @screen-md-min) {
+				video#video {
+					position: absolute;
+					left: 200px;
+				}
+
 				.anim-holder {
-					// background: red;
 					z-index: -1;
 					width: 940px;
-					height: 528px;
+					height: 600px;
 					position: absolute;
 					overflow: hidden;
-					top: -50px;
+					top: -20px;
 				}
 
 				.anim-spacer {
-					height: 350px;
+					height: 0px;
+				}
+
+				.scotch-tape {
+					background: @implico-e;
+					width: 10px;
+					height: 550px;
+					position: absolute;
+					left: 195px;
 				}
 			}
 
 			@media (min-width: @screen-lg-min) {
+				video#video {
+					position: absolute;
+					left: 230px;
+				}
+
 				.anim-holder {
-					// background: red;
 					z-index: -1;
 					width: 1140px;
 					height: 640px;
@@ -393,7 +538,15 @@ body {
 				}
 
 				.anim-spacer {
-					height: 430px;
+					height: 0px;
+				}
+
+				.scotch-tape {
+					background: @implico-e;
+					width: 10px;
+					height: 700px;
+					position: absolute;
+					left: 225px;
 				}
 			}
 		}
@@ -407,7 +560,7 @@ body {
 				text-align: center;
 
 				th {
-					background-image: url('/img/event-line.jpg');
+					background-image: url('../img/event-line.jpg');
 					background-repeat: repeat-x;
 					background-position: center;
 					text-align: center;
@@ -459,6 +612,14 @@ body {
 				padding: 40px 30px;
 				@media (min-width: @screen-sm-min) {padding: 80px 60px;}
 			}
+
+			&.small {
+				p {
+					@media (min-width: @screen-sm-min) {padding: 30px 30px;}
+					@media (min-width: @screen-md-min) {padding: 30px 30px;}
+					@media (min-width: @screen-lg-min) {padding: 70px 30px;}
+				}
+			}
 		}
 
 		.event-infographic {
@@ -467,6 +628,10 @@ body {
 	}
 
 	&.program {
+		.mood {
+			margin-top: 20px;
+		}
+
 		.timetable {
 			// margin-top: 30px;
 			// margin-bottom: 50px;
@@ -475,13 +640,15 @@ body {
 				width: 100%;
 
 				th {
-					background-image: url('/img/event-line.jpg');
+					background-image: url('../img/event-line.jpg');
 					background-repeat: repeat-y;
 					background-position: center;
 					text-align: center;
+					vertical-align: top;
+					padding-top: 45px;
 
 					&.event-line-edning {
-						background-image: url('/img/event-line-ending.png');
+						background-image: url('../img/event-line-ending.png');
 						background-repeat: no-repeat;
 						background-position: center top;
 						height: 100px;
@@ -527,7 +694,52 @@ body {
 
 					.agenda {
 						margin-top: 10px;
-						display: none;
+						// display: none;
+
+						.title {
+							font-weight: bold;
+							color: @implico-3;
+							font-size: 10px;
+							text-transform: uppercase;
+							padding: 5px;
+						}
+
+						table {
+							tr {
+								&.odmor {
+									opacity: .25;
+								}
+
+								td {
+									padding: 5px;
+									font-size: 12px;
+
+									&.time {
+										width: 100px;
+
+										.infin {
+											color: @implico-5;
+											font-size: 22px;
+											line-height: 12px;
+											display: inline-block;
+											margin-left: 1px;
+											font-weight: 200;
+										}
+									}
+
+									&.spent {
+										font-style: italic;
+										color: @implico-5;
+										font-size: 10px;
+										width: 75px;
+									}
+
+									.ter {
+										font-weight: normal;
+									}
+								}
+							}
+						}
 					}
 
 					&:hover {
@@ -541,6 +753,23 @@ body {
 	}
 
 	&.blog {
+		.mood {
+			margin-bottom: 20px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+
+			height: 380px;
+
+			@media (min-width: @screen-sm-min) {height: 380px;}
+			@media (min-width: @screen-md-min) {height: 380px;}
+			@media (min-width: @screen-lg-min) {height: 450px;}
+		}
+
 		.posted {
 			border-bottom: 1px solid #c8c8c8;
 			width: 100%;
@@ -592,7 +821,7 @@ body {
 					height: 100%;
 					// background-repeat: no-repeat;
 					// background-position: 95% 95%;
-					// background-image: url('/img/linkedin-icon.png');
+					// background-image: url('../img/linkedin-icon.png');
 				}
 
 				.overlay {
@@ -673,11 +902,67 @@ body {
 		}
 	}
 
+	&.partnerji {
+		h2 {
+			font-size: 18px;
+			color: @implico-3;
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+
+		.brand {
+			text-align: center;
+			color: #D8D8D8;
+			text-transform: lowercase;
+			font-style: italic;
+			// padding: 50px 0;
+			// height: 105px;
+			font-size: 22px;
+			display: block;
+
+			&.txt {
+				padding-top: 60px;
+			}
+
+			background-color: #e8e8e8;
+			border: 1px solid #e3e3e3;
+			margin-bottom: 20px;
+
+			
+
+			&:hover {
+				background-color: @implico-e;
+			}
+
+			@media (max-width: @screen-xs-max) {
+				img {max-height: 200px;}
+				&.txt {
+					padding-top: 50px;
+					padding-bottom: 50px;
+				}
+			}
+			@media (min-width: @screen-sm-min) {
+				height: 105px;
+
+				img {width: 100%;}
+				&.txt {padding-top: 35px;}
+			}
+			@media (min-width: @screen-md-min) {
+				height: 137px;
+				&.txt {padding-top: 55px;}
+			}
+			@media (min-width: @screen-lg-min) {
+				height: 170px;
+				&.txt {padding-top: 70px;}
+			}
+		}
+	}
+
 	&.prijava {
 		.package {
 			background: @implico-f;
 			text-align: center;
-			font-size: 18px;
+			font-size: 16px;
 			position: relative;
 			margin-bottom: 50px;
 			margin-top: 25px;
@@ -686,7 +971,7 @@ body {
 				padding: 15px 20px 0px 20px;
 				background-color: @implico-3;
 				color: @implico-f;
-				background-image: url('/img/elipse.png');
+				background-image: url('../img/elipse.png');
 				background-position: center 50px;
 				background-repeat: no-repeat;
 
@@ -794,7 +1079,6 @@ body {
 			}
 
 			.mailchimp	{
-				padding: 20px 20px 0 20px;
 
 				label {
 					font-weight: normal;
@@ -847,6 +1131,20 @@ body {
 						color: @implico-f;
 					}
 				}
+
+				#mc_embed_signup input.mce_inline_error {
+					border: 1px solid #e84c3d;
+					margin-bottom: 0;
+				}
+
+				#mc_embed_signup div.mce_inline_error {
+					margin: 0 0 1em 0;
+					padding: 5px 10px;
+					background-color: #e84c3d;
+					font-weight: bold;
+					z-index: 1;
+					color: #fff;
+				}
 			}
 
 			.foot {
@@ -881,6 +1179,10 @@ body {
 
 		a {
 			color: @implico-5;
+
+			&:hover {
+				color: @implico-9;
+			}
 		}
 
 		span {
@@ -909,28 +1211,139 @@ body {
 	table td {
 		vertical-align: top;
 		width: 160px;
+
+		.organizator-logo.meks {
+			width: 140px;
+			height: 114px;
+			display: block;
+			background-image: url('../img/meks-logo.png');
+
+			@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+				background-image: url('../img/meks-logo@2x.png');
+				background-size: 140px 114px;
+			}
+
+			&:hover {
+				background-image: url('../img/meks-logo-hover.png');
+			
+				@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+					background-image: url('../img/meks-logo-hover@2x.png');
+					background-size: 140px 114px;
+				}
+			}
+		}
+
+		.organizator-logo.skz {
+			width: 96px;
+			height: 93px;
+			display: block;
+			background-image: url('../img/skz-logo.png');
+			
+			@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+				background-image: url('../img/skz-logo@2x.png');
+				background-size: 96px 93px;
+			}
+
+			&:hover {
+				background-image: url('../img/skz-logo-hover.png');
+			
+				@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+					background-image: url('../img/skz-logo-hover@2x.png');
+					background-size: 96px 93px;
+				}
+			}
+		}
+	}
+
+	.newsletter-subscribe-form {
+		background: @implico-f;
+
+		h2 {
+			text-align: center;
+			color: @implico-9;
+			text-transform: uppercase;
+			font-weight: 200;
+			font-size: 24px;
+			margin: 0 0 20px 0;
+		}
+
+		.mailchimp	{
+
+			label {
+				font-weight: normal;
+				color: @implico-3;
+				text-transform: uppercase;
+				margin: 0;
+
+				span {
+					text-transform: none;
+					color: @implico-5;
+				}
+			}
+
+			input {
+				margin-bottom: 15px;
+				width: 100%;
+				padding: 5px 8px;
+				color: @implico-5;
+				outline: 0;
+
+				&.btn {
+					margin-bottom: 0;
+				}
+			}
+
+			select {
+				width: 100%;
+				margin-bottom: 20px;
+				font-size: 24px;
+				margin-top: 5px;
+			}
+
+			.asterisk {
+				color: @implico-1;
+				font-weight: bold;
+			}
+
+			.btn {
+				width: 100%;
+				max-width: 200px;
+				border: 2px solid @implico-3;
+				color: @implico-3;
+				font-weight: 500;
+				text-transform: uppercase;
+				background-color: @implico-f;
+				outline: 0;
+
+				&:hover {
+					background-color: @implico-3;
+					color: @implico-f;
+				}
+			}
+
+			#mc_embed_signup input.mce_inline_error {
+				border: 1px solid #e84c3d;
+				margin-bottom: 0;
+			}
+
+			#mc_embed_signup div.mce_inline_error {
+				margin: 0 0 1em 0;
+				padding: 5px 10px;
+				background-color: #e84c3d;
+				font-weight: bold;
+				z-index: 1;
+				color: #fff;
+			}
+		}
+
+		.foot {
+			.attention {
+				font-size: 12px;
+				color: @implico-5;
+				opacity: .5;
+				padding-top: 20px;
+				text-align: right;
+			}
+		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

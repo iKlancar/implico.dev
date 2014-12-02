@@ -32,6 +32,26 @@
 				</div>
 			</div>
 			<div class="row">
+				<div class="col-md-6">
+					<div class="mc-field-group">
+						<label for="mce-NASLOV">Naslov <span class="asterisk">*</span></label>
+						<input type="text" value="" name="NASLOV" class="required" id="mce-NASLOV">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="mc-field-group">
+						<label for="mce-POSTNUMBER">Poštna številka <span class="asterisk">*</span></label>
+						<input type="text" value="" name="POSTNUMBER" class="required" id="mce-POSTNUMBER">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="mc-field-group">
+						<label for="mce-MESTO">Mesto <span class="asterisk">*</span></label>
+						<input type="text" value="" name="MESTO" class="required" id="mce-MESTO">
+					</div>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-12">
 					<div class="mc-field-group">
 						<label for="mce-EMAIL">Email <span class="asterisk">*</span></label>
@@ -41,52 +61,27 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<div class="mc-address-group">
-						<div class="mc-field-group">
-							<label for="mce-NASLOV-addr1">Naslov <span class="asterisk">*</span></label>
-							<input type="text" value="" maxlength="70" name="NASLOV[addr1]" id="mce-NASLOV-addr1" class="required">
-						</div>
-						<div class="mc-field-group hide">
-							<label for="mce-NASLOV-addr2">Address Line 2</label>
-							<input type="text" value="" maxlength="70" name="NASLOV[addr2]" id="mce-NASLOV-addr2">		
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="mc-address-group">
-						<div class="mc-field-group size1of2">
-							<label for="mce-NASLOV-zip">Poštna številka <span class="asterisk">*</span></label>
-							<input type="text" value="" maxlength="10" name="NASLOV[zip]" id="mce-NASLOV-zip" class="required">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="mc-address-group">
-						<div class="mc-field-group size1of2">
-							<label for="mce-NASLOV-city">Mesto <span class="asterisk">*</span></label>
-							<input type="text" value="" maxlength="40" name="NASLOV[city]" id="mce-NASLOV-city" class="required">
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="mc-address-group">
-						<div class="mc-field-group size1of2">
-							<label for="mce-NASLOV-state">State/Province/Region <span class="asterisk">*</span></label>
-							<input type="text" value="" maxlength="20" name="NASLOV[state]" id="mce-NASLOV-state" class="required">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
 					<div class="mc-field-group">
-						<label for="mce-KOTIZACIJA">Tip kotizacije <span class="asterisk">*</span></label> <br>
+						<label for="mce-KOTIZACIJA">Tip kotizacije <span class="asterisk">*</span></label>
 						<select name="KOTIZACIJA" class="required" id="mce-KOTIZACIJA">
 							<option value=""></option>
-							<option value="Žirafa">Žirafa - 29. januar 2015 (48€)</option>
-							<option value="Žirafa + vse 3 puzle">Žirafa + vse 3 puzle - 29. 1. 2015, 5. 2. 2015, 10. 2. 2015 in 12. 2. 2015 (96€)</option>
+							<option value="Žirafa">Žirafa (48€)</option>
+							<option value="Žirafa + vse 3 puzle - delavnice kadrov(n)ik">Žirafa + 3 Puzzle - delavnice kadrov(n)ik (96€)</option>
+							<option value="Žirafa + vse 3 puzle - delavnice start-up / manjše podjetje">Žirafa + 3 Puzzle - delavnice start-up / manjše podjetje (96€)</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="mc-field-group">
+						<label for="mce-OBLIKAIZOB">Najljubša oblika izobraževanja <span class="asterisk">*</span></label>
+						<select name="OBLIKAIZOB" class="required" id="mce-OBLIKAIZOB">
+							<option value=""></option>
+							<option value="Predavanje">Predavanje</option>
+							<option value="Delavnica">Delavnica</option>
+							<option value="Modularno izobraževanje">Modularno izobraževanje</option>
+							<option value="E-knjiga">E-knjiga</option>
+							<option value="Webinar">Webinar</option>
+							<option value="Formalno izobraževanje">Formalno izobraževanje</option>
 						</select>
 					</div>
 				</div>

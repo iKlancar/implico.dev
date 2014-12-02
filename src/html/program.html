@@ -24,13 +24,57 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		include "partial/header.html"
+		<!-- include "partial/header.html" -->
+
+		<div class="header">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/implico-logo.png" alt="Implico logo">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="govorci.html">Govorci</a></li>
+							<li><a href="dogodek.html">Dogodek</a></li>
+							<li class="active"><a href="program.html">Program</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="kdo-smo.html">Kdo smo</a></li>
+							<li><a href="partnerji.html">Partnerji</a></li>
+							<li><a href="prijava.html" class="prijava">Prijavi se</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 		
 		<div class="content program">
 			<div class="container">
+
+				<!-- <div class="mood hidden-xs">
+					<div class="anim-holder">
+						<video poster="anim/program-movie.jpg" autoplay="" loop="" id="video">
+							<source width="100%" src="anim/program-movie.mp4" type="video/mp4">
+							<source width="100%" src="anim/program-movie.ogg" type="video/ogg">
+							<img width="100%" src="anim/program-movie.jpg" id="fallback">
+							Your browser does not support the video tag.
+						</video>
+						<div class="scotch-tape hidden-sm"></div>
+					</div>
+					<div class="anim-spacer"></div>
+				</div> -->
+
 				<h1>Implico program</h1>
-				
-				<div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:380px; margin-bottom: 20px;"></div>
+
+				<p class="lead">Na Žirafi poslušamo, se družimo, na Puzzle delavnicah aktivno sodelujemo in se učimo!</p>
+				<p>Žirafa obljublja spreten “moonwalk” med prenosom znanj, soočenjem različnih deležnikov iz kadrovske stroke, novimi trendi in dobrimi praksami. Z organizacijo after partyja pa vas bo zmotivirala za aktivno delo, ki bo sledilo na delavnicah v sklopu Puzzle 1, 2 in 3.</p>
 				
 				<div class="row">	
 					<div class="col-md-12 timetable">
@@ -39,13 +83,109 @@
 								<th><div class="circle">0</div></th>
 								<td>
 									<div class="event">
-										<span class="name">Žirafa 0</span> - <span class="date">29.1.2015</span>
+										<span class="name">Žirafa</span> - <span class="date">29. 1. 2015</span>
 									</div>
 									<div class="description">
-										<p>Tu se vse začne. Žirafa je celodnevni dogodek, ki bo naznanil začetek Implica in predstavljal uvod v nadaljnje module oziroma puzle, hkrati pa nudil svojo zaključeno vsebino na področju strateškega kadrovanja in menedžmenta sprememb.</p>
+										<p>Žirafa je celodnevni dogodek, ki bo naznanil začetek Implica in predstavljal uvod v nadaljne module oziroma Puzzle. Hkrati bo nudil svojo zaključeno vsebino na področju strateškega kadrovanja in menedžmenta sprememb.</p>
 									</div>
 									<div class="agenda">
-										<div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:880px;"></div>
+										<div class="title">Četrtek, 29. januar 2015</div>
+										<table class="table table-hover">
+											<tr>
+												<td></td>
+												<td></td>
+												<td><b>Kadrov(n)iki</b> in <b>Start-up <span class="ter">ter</span> Mala podjetja</b></td>
+											</tr>
+											<tr>
+												<td class="time">8:15 - 9:00</td>
+												<td class="spent">(45min)</td>
+												<td>Registracija</td>
+											</tr>
+											<tr>
+												<td class="time">9:00 - 9:15</td>
+												<td class="spent">(15min)</td>
+												<td>Pozdravni nagovor <br>
+													<b>Rok Zupančič</b>, predsednik Slovenske kadrovske zveze<br>
+													<b>Nejc Jaka Sekula</b>, predsednik sekcije MEKS
+												</td>
+											</tr>
+											<tr>
+												<td class="time">9:15 - 10:00</td>
+												<td class="spent">(45min)</td>
+												<td>Powerful Speech: Strategic HR <br>
+													<b>Tamara Valenčič</b>, kadrovska managerka leta 2014
+												</td>
+											</tr>
+											<tr class="odmor">
+												<td class="time">10:00 - 10:15</td>
+												<td class="spent">(15min)</td>
+												<td>Odmor</td>
+											</tr>
+											<tr>
+												<td class="time">10:15 - 11:30</td>
+												<td class="spent">(1h 15min)</td>
+												<td>Soočenja: HR Panorama <br>
+													<b>Matej Potokar</b>, Microsoft <br>
+													<b>Barica Blenkuš</b>, executive coach & organisation consultant <br>
+													<b>Simon Korez</b>, Slovenska vojska <br>
+													<b>Tomaž Jug</b>, Editor <br>
+													moderator: <b>Denis Oštir</b>, Pro Plus
+												</td>
+											</tr>
+											<tr>
+												<td class="time">11:30 - 12:30</td>
+												<td class="spent">(1h)</td>
+												<td>Change management <br>
+													<b>Rok Magister</b>, SAP
+												</td>
+											</tr>
+											<tr class="odmor">
+												<td class="time">12:30 - 13:45</td>
+												<td class="spent">(1h 45min)</td>
+												<td>Glažuta lunch</td>
+											</tr>
+											<tr>
+												<td class="time">13:45 - 14:30</td>
+												<td class="spent">(45min)</td>
+												<td>Bo HRM rešil Slovenijo?<br>
+													<b>Teja Breznik Alfirev</b>, Halcom
+												</td>
+											</tr>
+											<tr>
+												<td class="time">14:30 - 15:30</td>
+												<td class="spent">(45min)</td>
+												<td>Uvod v Puzzle II SELL the HR</td>
+											</tr>
+											<tr class="odmor">
+												<td class="time">15:15 - 15:30</td>
+												<td class="spent">(15min)</td>
+												<td>Odmor</td>
+											</tr>
+											<tr>
+												<td class="time">15:30 - 16:15</td>
+												<td class="spent">(45min)</td>
+												<td>Uvod v Puzzle 3: Work Life Balance <br>
+													<b>Nika Deu</b>, Deus d.o.o.</td>
+											</tr>
+											<tr>
+												<td class="time">16:15 - 17:15</td>
+												<td class="spent">(1h)</td>
+												<td>Inspirational Speech <br>
+													<b>Dejan Turk</b>, Vip mobile</td>
+											</tr>
+											<tr>
+												<td class="time">17:15 - 17:30</td>
+												<td class="spent">(15min)</td>
+												<td>Zahvala in next steps <br>
+													<b>Tina Zafred</b>, vodja projekta 
+												</td>
+											</tr>
+											<tr>
+												<td class="time">17:30 - <span class="infin">&infin;</span></td>
+												<td class="spent"></td>
+												<td>Žirafa After party</td>
+											</tr>
+										</table>
 									</div>
 								</td>
 							</tr>
@@ -53,13 +193,67 @@
 								<th><div class="circle">1</div></th>
 								<td>
 									<div class="event">
-										<span class="name">PUZLA 1</span> - <span class="date">5.2.2015</span>
+										<span class="name">PUZZLE 1</span> - <span class="date">5. 2. 2015</span>
 									</div>
 									<div class="description">
-										<p>Predstavlja prvi poldnevni dogodek v obliki holistične delavnice na temo <b class="color-implico-3">TOP OF HRM</b>, kjer bodo mladi kadroviki v eni skupini nadgrajevali svoje znanje na področju »onboardinga«; medtem ko se bodo start-upovci in manjša podjetja v drugi skupini učila o »team & performance managementu«.</p>
+										<p>Predstavlja prvi poldnevni dogodek v obliki holistične delavnice na temo <b class="color-implico-3">TOP of HRM</b>. Udeleženci Puzzle 1 so razdeljeni v dve skupini. Prva skupina, ki združuje mlade kadrov(n)ike bo nadgrajevala svoje znanje na področju onboardinga, druga skupina, ki združuje start-upovce in predstavnike manjših podjetij, pa se bo učila o team & performance managementu.</p>
 									</div>
 									<div class="agenda">
-										<div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:880px;"></div>
+										<div class="title">Četrtek, 5. februar 2015</div>
+										<table class="table table-hover">
+											<tr>
+												<td></td>
+												<td></td>
+												<td><b>Kadrov(n)iki</b></td>
+												<td><b>Start-up <span class="ter">ter</span> Mala podjetja</b></td>
+											</tr>
+											<tr>
+												<td class="time">15:00 - 15:15</td>
+												<td class="spent">(15min)</td>
+												<td>Pozdravni nagovor <br>
+													<b>Božidar Grigić</b>, vodja programa
+												</td>
+												<td>Pozdravni nagovor <br>
+													<b>Božidar Grigić</b>, vodja programa
+												</td>
+											</tr>
+											<tr>
+												<td class="time">15:15 - 17:00</td>
+												<td class="spent">(1h 45min)</td>
+												<td>
+													TOP of HRM: Gecko HRM<br>
+													Agilcon
+												</td>
+												<td>
+													TOP of HRM: Team management<br>
+													TB Akademija
+												</td>
+											</tr>
+											<tr class="odmor">
+												<td class="time">17:00 - 17:15</td>
+												<td class="spent">(15min)</td>
+												<td>Odmor</td>
+												<td>Odmor</td>
+											</tr>
+											<tr>
+												<td class="time">17:15 - 18:15</td>
+												<td class="spent">(1h)</td>
+												<td>Delo po skupinah: Performance management</td>
+												<td>Delo po skupinah: Team management</td>
+											</tr>
+											<tr class="odmor">
+												<td class="time">18:15 - 19:00</td>
+												<td class="spent">(15min)</td>
+												<td>Preizkus orodja Gecko HRM</td>
+												<td>Predstavitev rezultatov</td>
+											</tr>
+											<tr>
+												<td class="time">19:00 - <span class="infin">&infin;</span></td>
+												<td class="spent"></td>
+												<td>Si.Mobil snack & Networking</td>
+												<td>Si.Mobil snack & Networking</td>
+											</tr>
+										</table>
 									</div>
 								</td>
 							</tr>
@@ -67,13 +261,67 @@
 								<th><div class="circle">2</div></th>
 								<td>
 									<div class="event">
-										<span class="name">PUZLA 2</span> - <span class="date">10.2.2015</span>
+										<span class="name">PUZZLE 2</span> - <span class="date">10. 2. 2015</span>
 									</div>
 									<div class="description">
-										<p>Je drugi poldnevni dogodek, ki bo prav tako potekal v obliki delavnice v dveh skupinah in sicer na temo <b class="color-implico-3">SELL THE HR</b>, kjer bodo kadroviki pobliže spoznali moč internega komuniciranja ter pomembnost le-tega pri pozicioniranju HR funkcije kot strateške; start-up in mala podjetja pa nujno potrebne osnove s področja delovnega prava, da bodo lahko zagotavljali zakonitost delovanja podjetja na področju kadrovanja.</p>
+										<p>Tudi drugi poldnevni dogodek bo potekal v obliki delavnice, z udeleženci razdeljenimi v dve skupini. <b class="color-implico-3">SELL the HR</b> bo tema v sklopu katere bo skupina mladih kadrov(n)ikov pobliže spoznala moč internega komuniciranja in pomembnost le-tega pri pozicioniranju HR funkcije kot strateške. Skupina s predstavniki start-upov in manjših podjetij pa se bo soočila z nujno potrebnimi osnovami s področja delovnega prava. Dolgčasna tema? Ne, v  sklopu Implica. :)</p>
 									</div>
 									<div class="agenda">
-										<div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:880px;"></div>
+										<div class="title">Torek, 10. februar 2015</div>
+										<table class="table table-hover">
+											<tr>
+												<td></td>
+												<td></td>
+												<td><b>Kadrov(n)iki</b></td>
+												<td><b>Start-up <span class="ter">ter</span> Mala podjetja</b></td>
+											</tr>
+											<tr>
+												<td class="time">15:00 - 15:15</td>
+												<td class="spent">(15min)</td>
+												<td>Pozdravni nagovor <br>
+													<b>Božidar Grigić</b>, vodja programa
+												</td>
+												<td>Pozdravni nagovor <br>
+													<b>Božidar Grigić</b>, vodja programa
+												</td>
+											</tr>
+											<tr>
+												<td class="time">15:15 - 17:00</td>
+												<td class="spent">(1h 45min)</td>
+												<td>
+													SELL the HR: Interno komuniciranje <br>
+													<b>Nataša Tovornik, Katja Grgič</b>, Fastforward
+												</td>
+												<td>
+													SELL the HR: ABC zakonodaje v kadrovanju <br>
+													<b>Barbara Rajgelj</b>, FDV
+												</td>
+											</tr>
+											<tr class="odmor">
+												<td class="time">17:00 - 17:15</td>
+												<td class="spent">(15min)</td>
+												<td>Odmor</td>
+												<td>Odmor</td>
+											</tr>
+											<tr>
+												<td class="time">17:15 - 18:15</td>
+												<td class="spent">(1h)</td>
+												<td>Delo po skupinah</td>
+												<td>Delo po skupinah</td>
+											</tr>
+											<tr>
+												<td class="time">18:15 - 19:00</td>
+												<td class="spent">(45min)</td>
+												<td>Predstavitev rezultatov</td>
+												<td>Predstavitev rezultatov</td>
+											</tr>
+											<tr>
+												<td class="time">19:15 - <span class="infin">&infin;</span></td>
+												<td class="spent"></td>
+												<td>Si.Mobil snack & Networking</td>
+												<td>Si.Mobil snack & Networking</td>
+											</tr>
+										</table>
 									</div>
 								</td>
 							</tr>
@@ -81,13 +329,60 @@
 								<th><div class="circle">3</div></th>
 								<td>
 									<div class="event">
-										<span class="name">PUZLA 3</span> - <span class="date">12.2.2015</span>
+										<span class="name">PUZZLE 3</span> - <span class="date">12. 2. 2015</span>
 									</div>
 									<div class="description">
-										<p>Je tretji poldnevni dogodek in hkrati zaključni dogodek Implica na temo <b class="color-implico-3">WORK LIFE BALANCE</b>, kjer se bodo v obliki delavnice ponovno združeni mladi kadroviki, start-upi in manjša podjetja učili najti pravo ravnotežje med delom in osebnim prostim časom ter kako preprečevati izgorelost pri sebi kot ostalih zaposlenih v podjetju.</p>
+										<p>Na tretjem poldnevnem dogodku in hkrati zaključnem dejanju Implica, bomo obravnavali  temo <b class="color-implico-3">WORK LIFE BALANCE</b>. Tokrat se bodo ponovno združile moči mladih kadrov(n)ikov in predstavnikov start-upov ter manjših podjetij. Naučili se bomo najti pravo ravnovesje med delovnim in zasebnim časom posameznika, nekaj pravil za preprečevanje izgorelosti ter postavljanje prioritet. Prav tako pa poskušali najti način, kako naučeno, iz posameznika prenesti v kulturo podjetja.
+										</p>
 									</div>
 									<div class="agenda">
-										<div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:880px;"></div>
+										<div class="title">Četrtek, 12. februar 2015</div>
+										<table class="table table-hover">
+											<tr>
+												<td></td>
+												<td></td>
+												<td><b>Kadrov(n)iki</b> in <b>Start-up <span class="ter">ter</span> Mala podjetja</b></td>
+											</tr>
+											<tr>
+												<td class="time">15:00 - 15:15</td>
+												<td class="spent">(15min)</td>
+												<td>
+													Pozdravni nagovor <br>
+													<b>Nejc Jaka Sekula</b>, predsednik sekcije MEKS
+													</td>
+											</tr>
+											<tr>
+												<td class="time">15:15 - 17:00</td>
+												<td class="spent">(1h 45min)</td>
+												<td>
+													Kako doseči optimalen uspeh doma in v delovnem okolju? <br>
+													<b>Matthew Davies</b>
+												</td>
+											</tr>
+											<tr class="odmor">
+												<td class="time">17:00 - 17:15</td>
+												<td class="spent">(15min)</td>
+												<td>Odmor</td>
+											</tr>
+											<tr>
+												<td class="time">17:15 - 19:00</td>
+												<td class="spent">(1h 45min)</td>
+												<td>Delo po skupinah</td>
+											</tr>
+											<tr>
+												<td class="time">19:00 - 19:15</td>
+												<td class="spent">(15min)</td>
+												<td>
+													Zahvala in zaključni govor <br>
+													<b>Tina Zafred</b>, vodja projekta Implico
+												</td>
+											</tr>
+											<tr>
+												<td class="time">19:15 - <span class="infin">&infin;</span></td>
+												<td class="spent"></td>
+												<td>Si.Mobil snack & Networking</td>
+											</tr>
+										</table>
 									</div>
 								</td>
 							</tr>

@@ -24,13 +24,61 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		include "partial/header.html"
+		<!-- include "partial/header.html" -->
+
+		<div class="header">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/implico-logo.png" alt="Implico logo">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="govorci.html">Govorci</a></li>
+							<li><a href="dogodek.html">Dogodek</a></li>
+							<li><a href="program.html">Program</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li class="active"><a href="kdo-smo.html">Kdo smo</a></li>
+							<li><a href="partnerji.html">Partnerji</a></li>
+							<li><a href="prijava.html" class="prijava">Prijavi se</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 		
 		<div class="content kdo-smo">
 			<div class="container">
-				<h1>Implico ekipa</h1>
 
-				<div style="background-color: #e8e8e8; border: 1px solid #e3e3e3; min-height:380px; margin-bottom: 20px;"></div>
+				<div class="mood hidden-xs">
+					<div class="anim-holder">
+						<video poster="anim/kdo-smo-movie.jpg" autoplay="" loop="" id="video">
+							<source width="100%" src="anim/kdo-smo-movie.mp4" type="video/mp4">
+							<!-- <source width="100%" src="anim/kdo-smo-movie.ogg" type="video/ogg"> -->
+							<img width="100%" src="anim/kdo-smo-movie.jpg" id="fallback">
+							Your browser does not support the video tag.
+						</video>
+						<!-- <div class="scotch-tape hidden-sm"></div> -->
+					</div>
+					<div class="anim-spacer"></div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<h1>Implico ekipa</h1>
+						<p class="lead">Najprej je bil nič. Potem so bile ideje. Od tukaj dalje je bilo vse mogoče …</p>
+						<p>… in sedaj smo tukaj pred vami. Implico ekipa. Skupina mladih, ki svojo energijo in čas vlagamo v ideje, za katere verjamemo, da bodo prispevale k boljši prihodnosti vseh nas. Nas. Večno mladih. To smo mi! :)</p>
+						<br>
+					</div>
+				</div>
 
 				<div class="row team-group">
 					<div class="col-sm-4 col-md-3 team-member">
@@ -73,10 +121,33 @@
 							Puzla pri sestavljanju zgodbe, v kateri bomo dosegli strateško pomembno in nepogrešljivo HR funkcijo v vsakem podjetju.
 						</div>
 					</div>
+					<div class="col-sm-4 col-md-3 team-member visible-sm">
+						<div class="img" style="background-image: url('img/implico-team-member-gregor-mesaric.jpg');">
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="http://si.linkedin.com/pub/gregor-mesari%C4%87/58/a41/136/"></a>
+							<div class="overlay"></div>
+							<table>
+								<tr>
+									<td>
+										<div class="name">Gregor Mesarić</div>
+										<div class="from">operativa</div>
+									</td>
+								</tr>
+							</table>
+							<!-- <div class="puzzle v01"><img src="img/puzzle-01.png"></div> -->
+						</div>
+						<div class="txt">
+							<div class="title">Gregor o Implicu:</div>
+							Izobraževanje z Moduli, ki ga povezujejo Proaktivnost, Ljubezen do kadrovske stroke, Inovativnost in  Ciljna Osredotočenost.
+						</div>
+					</div>
+				</div>
+
+				<div class="row team-group">
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-teja-bremec.jpg');">
-							<!-- <img class="linkedin-icon" src="img/linkedin-icon.png" alt=""> -->
-							<!-- <a class="linkedin" href=""></a> -->
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="https://www.linkedin.com/in/tejabremec"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
@@ -95,14 +166,14 @@
 					</div>
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-nejc-sekula.jpg');">
-							<!-- <img class="linkedin-icon" src="img/linkedin-icon.png" alt=""> -->
-							<!-- <a class="linkedin" href=""></a> -->
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="https://www.linkedin.com/pub/nejc-jaka-sekula/1/294/411/nl"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
 									<td>
 										<div class="name">Nejc Sekula</div>
-										<div class="from">naziv</div>
+										<div class="from">program</div>
 									</td>
 								</tr>
 							</table>
@@ -115,8 +186,8 @@
 					</div>
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-katarina-kocbek.jpg');">
-							<!-- <img class="linkedin-icon" src="img/linkedin-icon.png" alt=""> -->
-							<!-- <a class="linkedin" href=""></a> -->
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="https://www.linkedin.com/in/kocbekk"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
@@ -135,14 +206,14 @@
 					</div>
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-nusa-bejek.jpg');">
-							<!-- <img class="linkedin-icon" src="img/linkedin-icon.png" alt=""> -->
-							<!-- <a class="linkedin" href=""></a> -->
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="https://www.linkedin.com/pub/nusa-bejek/23/b30/823"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
 									<td>
 										<div class="name">Nuša Bejek</div>
-										<div class="from">digitalni marketing</div>
+										<div class="from">marketing</div>
 									</td>
 								</tr>
 							</table>
@@ -155,14 +226,14 @@
 					</div>
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-darja-tavcar.jpg');">
-							<!-- <img class="linkedin-icon" src="img/linkedin-icon.png" alt=""> -->
-							<!-- <a class="linkedin" href=""></a> -->
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="https://www.linkedin.com/pub/darja-tav%C4%8Dar/7/410/334"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
 									<td>
 										<div class="name">Darja Tavčar</div>
-										<div class="from">naziv</div>
+										<div class="from">program</div>
 									</td>
 								</tr>
 							</table>
@@ -176,7 +247,7 @@
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-urska-cufer.jpg');">
 							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
-							<a class="linkedin" href="https://www.linkedin.com/profile/view?id=275617742&trk=nav_responsive_tab_profile"></a>
+							<a class="linkedin" href="https://www.linkedin.com/pub/ur%C5%A1ka-%C4%8Dufer/78/379/12"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
@@ -235,8 +306,8 @@
 					</div>
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-maja-dizdarevic.jpg');">
-							<!-- <img class="linkedin-icon" src="img/linkedin-icon.png" alt=""> -->
-							<!-- <a class="linkedin" href=""></a> -->
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="http://si.linkedin.com/pub/maja-dizdarevic/94/ab0/b25"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
@@ -256,7 +327,7 @@
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-edisa-avdic.jpg');">
 							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
-							<a class="linkedin" href="https://www.linkedin.com/profile/view?id=170943325&trk=nav_responsive_tab_profile"></a>
+							<a class="linkedin" href="https://www.linkedin.com/in/edisaavdic"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
@@ -275,14 +346,14 @@
 					</div>
 					<div class="col-sm-4 col-md-3 team-member">
 						<div class="img" style="background-image: url('img/implico-team-member-anja-jamsek.jpg');">
-							<!-- <img class="linkedin-icon" src="img/linkedin-icon.png" alt=""> -->
-							<!-- <a class="linkedin" href=""></a> -->
+							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
+							<a class="linkedin" href="https://www.linkedin.com/pub/anja-jam%C5%A1ek/a9/887/591"></a>
 							<div class="overlay"></div>
 							<table>
 								<tr>
 									<td>
 										<div class="name">Anja Jamšek</div>
-										<div class="from">naziv</div>
+										<div class="from">operativa</div>
 									</td>
 								</tr>
 							</table>
@@ -313,7 +384,7 @@
 							Korak v pravo smer z ekipo polno energije, zagona in kreativnosti.
 						</div>
 					</div>
-					<div class="col-sm-4 col-md-3 team-member">
+					<div class="col-sm-4 col-md-3 team-member hidden-sm">
 						<div class="img" style="background-image: url('img/implico-team-member-gregor-mesaric.jpg');">
 							<img class="linkedin-icon" src="img/linkedin-icon.png" alt="">
 							<a class="linkedin" href="http://si.linkedin.com/pub/gregor-mesari%C4%87/58/a41/136/"></a>

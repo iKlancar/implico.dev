@@ -3,7 +3,7 @@
 		<div class="row cta">
 			<div class="col-sm-6 col-md-4">
 				<b>
-				<a href="mailto:info@implico.si">Kontakt</a> <span>|</span> <a href="">Naroči se na newsletter</a>
+				<a href="mailto:info@implico.si">Kontakt</a> <span>|</span> <a data-toggle="modal" data-target="#newsletter-subscribe">Naroči se na newsletter</a>
 				</b>
 			</div>
 			<div class="col-sm-6 col-md-8 hidden-xs">
@@ -12,8 +12,12 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-md-4">
-				<a href="https://www.facebook.com/implico.si"><img src="img/footer-fb-icon.png" class="fb"></a>
-				<a href="mailto:info@implico.si"><img src="img/footer-mail-icon.png" class="mail"></a>
+				<a href="https://www.facebook.com/implico.si">
+					<img src="img/footer-fb-icon.png" class="fb">
+				</a>
+				<a href="mailto:info@implico.si">
+					<img src="img/footer-mail-icon.png" class="mail">
+				</a>
 
 				<div class="title">Stopite v stik</div>
 				<div class="txt">Povpraševanje, informacije, pohvale, pritožbe, računi, kotizacije, reklamacije, sponzorstvo, sodelovanje?</div>
@@ -21,10 +25,39 @@
 			<div class="col-sm-6 col-md-8 hidden-xs">
 				<table>
 					<tr>
-						<td><a href="http://www.meks.si/"><img src="img/meks-logo.png"></a></td>
-						<td><a href="http://www.skz.si/"><img src="img/skz-logo.png"></a></td>
+						<td><a href="http://www.meks.si/" class="organizator-logo meks"></a></td>
+						<td><a href="http://www.skz.si/" class="organizator-logo skz"></a></td>
 					</tr>
 				</table>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="newsletter-subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body clearfix">
+					<div class="col-md-12">
+						<div class="newsletter-subscribe-form clearfix">
+
+							<img src="img/implico-logo.png" alt="Implico logo">
+
+							<h2>Naroči se na newsletter</h2>
+
+							<div class="mailchimp">
+								
+								include "../partial/newsletter-subscribe.html"
+
+							</div>
+							<div class="foot">
+								<div class="attention">
+									Po kliku na gumb "Naroči se" boste na vnešen<br>email naslov prejeli potrditveni email.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
