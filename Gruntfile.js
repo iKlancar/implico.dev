@@ -126,9 +126,6 @@ module.exports = function(grunt) {
 	grunt.registerTask('production', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim', 'ftp-deploy:production']);
 
 	grunt.task.registerTask('default', 'default', function(id, debug) {
-	// grunt.log.subhead('Use the following:');
-	// grunt.log.writeln('--------------------------------------------------------------------------------------');
-	grunt.log.writeln('');
 	grunt.log.subhead('grunt dev');
 	grunt.log.writeln('Builds all files for local development. Availible at "www.implico.dev".');
 	grunt.log.subhead('grunt production');
@@ -136,6 +133,3 @@ module.exports = function(grunt) {
 
 });
 };
-
-
-
