@@ -3,7 +3,7 @@
 		<div class="row cta">
 			<div class="col-sm-6 col-md-4">
 				<b>
-				<a href="mailto:info@implico.si">Kontakt</a> <span>|</span> <a data-toggle="modal" data-target="#newsletter-subscribe">Naroči se na newsletter</a>
+				<a href="mailto:info@implico.si">Kontakt</a> <span>|</span> <a class="newsletter-subscribe" data-toggle="modal" data-target="#newsletter-subscribe">Naroči se na newsletter</a>
 				</b>
 			</div>
 			<div class="col-sm-6 col-md-8 hidden-xs">
@@ -19,7 +19,7 @@
 					<img src="img/footer-mail-icon.png" class="mail">
 				</a>
 
-				<div class="title">Stopite v stik</div>
+				<div class="title">info@implico.si</div>
 				<div class="txt">Povpraševanje, informacije, pohvale, pritožbe, računi, kotizacije, reklamacije, sponzorstvo, sodelovanje?</div>
 			</div>
 			<div class="col-sm-6 col-md-8 hidden-xs">
@@ -37,14 +37,13 @@
 	<div class="modal fade" id="newsletter-subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Zapri</span></button>
+					<h2>Naroči se na newsletter</h2>
+				</div>
 				<div class="modal-body clearfix">
 					<div class="col-md-12">
 						<div class="newsletter-subscribe-form clearfix">
-
-							<img src="img/implico-logo.png" alt="Implico logo">
-
-							<h2>Naroči se na newsletter</h2>
-
 							<div class="mailchimp">
 								
 								include "../partial/newsletter-subscribe.html"

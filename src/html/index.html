@@ -6,8 +6,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title></title>
-		<meta name="description" content="">
+		<title>Implico.si | Strateško kadrovanje prihodnosti</title>
+		<meta name="copyright" content="© Implico.si" />
+		<meta name="author" lang="sl" content="Anze Klancar" />
+		<meta name="robots" content="Index,Follow" />
+		<meta name="description" content="Implico - modularno izobraževanje za mlade kadrov(n)ike, start-upe in manjša podjetja">
+		<meta name="keyword" content="implico, hrm, izobraževanje, start-up, kadrovik, kadrovnik, podjetja" />
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -19,13 +23,10 @@
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
+
 		<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-
-		<!-- Add your site or application content here -->
-
-		<!-- include "partial/header.html" -->
 
 		<div class="header">
 			<nav class="navbar navbar-default" role="navigation">
@@ -37,40 +38,66 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html">
+						<a class="navbar-brand" href="/">
 							<img src="img/implico-logo.png" alt="Implico logo">
 						</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="govorci.html">Govorci</a></li>
-							<li><a href="dogodek.html">Dogodek</a></li>
-							<li><a href="program.html">Program</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="kdo-smo.html">Kdo smo</a></li>
-							<li><a href="partnerji.html">Partnerji</a></li>
-							<li><a href="prijava.html" class="prijava">Prijavi se</a></li>
+							<li><a href="govorci">Govorci</a></li>
+							<li><a href="dogodek">Dogodek</a></li>
+							<li><a href="program">Program</a></li>
+							<li><a href="blog">Blog</a></li>
+							<li><a href="kdo-smo">Kdo smo</a></li>
+							<li><a href="partnerji">Partnerji</a></li>
+							<li><a href="prijava" class="prijava">Prijavi se</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</div>
 		
-		<div class="content program">
+		<div class="content index">
 			<div class="container">
-				
-				<div class="mood">
-					<div class="anim-holder">
-						<video width="100%" poster="anim/index-movie.jpg" autoplay="" loop="" id="video">
-							<source src="anim/index-movie.mp4" type="video/mp4">
-							<!-- <source src="anim/index-movie.ogg" type="video/ogg"> -->
-							<img src="anim/index-movie.jpg" id="fallback">
-							Your browser does not support the video tag.
-						</video>
-						<!-- <div class="scotch-tape hidden-sm"></div> -->
+
+				<div class="row">
+					<div class="col-md-12">
+						<!-- <div class="intro" style="background-image:url('img/implico-logo-index.png');"> -->
+						<div class="intro">
+							<!-- <img src="img/implico-logo-full.png" alt="" class="visible-xs img-responsive"> -->
+							<img src="img/implico-logo-index.png" alt="" class="hidden-xs">
+							<div class="txt">
+								<div class="dates">
+									29. januar 2015 | 5. februar 2015 | 10. februar 2015 | 12. februar 2015
+								</div>
+								<div class="lead">
+									<h1>Modularno izobraževanje za mlade kadrov(n)ike,<br>start-upe in majhna podjetja.</h1>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="anim-spacer"></div>
 				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mood">
+							<div class="anim-holder">
+								<video width="100%" preload="auto" poster="img/index-movie.jpg" controls id="video">
+									<source src="anim/index-movie.mp4" type="video/mp4">
+									<source src="anim/index-movie.ogg" type="video/ogg">
+									<img src="img/index-movie.jpg" id="fallback">
+									Your browser does not support the video tag.
+								</video>
+								<div class="overlay">
+									<div class="play"></div>
+								</div>
+								<div class="puzzle v01"><img src="img/puzzle-01.png"></div>
+								<div class="puzzle v04"><img src="img/puzzle-04.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 
 			</div>
 		</div>
@@ -80,6 +107,18 @@
 		include "partial/include-after-body.html"
 
 		include "partial/google-analytics.html"
+		
+		<script>
+			$(document).ready(function () {
+				$(".anim-holder").hover(function () {
+						$(this).children("video")[0].play();
+					}, function () {
+						var el = $(this).children("video")[0];
+						el.pause();
+						// el.currentTime = 0;
+				});
+			});
+		</script>
 
 	</body>
 </html>

@@ -82,6 +82,19 @@ module.exports = function(grunt) {
 						// flatten: true,
 					}
 				]
+			},
+			'htaccess': {
+				files: [
+					// includes files within path
+					{
+						expand: true,
+						// cwd: 'src/.htaccess',
+						src: 'src/.htaccess', // copy all files and subfolders
+						dest: 'dist/',
+						filter: 'isFile',
+						flatten: true
+					}
+				]
 			}
 		},
 		watch: {
@@ -103,6 +116,18 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		htmlclean: {
+			// options: {
+			// 	protect: /<\!--%fooTemplate\b.*?%-->/g,
+			// 	edit: function(html) { return html.replace(/\begg(s?)\b/ig, 'omelet$1'); }
+			// },
+			deploy: {
+				expand: true,
+				cwd: 'dist',
+				src: '**/*.html',
+				dest: 'dist'
+			}
+		},
 		'ftp-deploy': {
 			'production': {
 				auth: {
@@ -111,7 +136,7 @@ module.exports = function(grunt) {
 					authKey: 'implicoKey'
 				},
 				src: 'dist',
-				dest: '/public_html/development',
+				dest: '/public_html',
 				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp'],
 				server_sep: '/'
 			}
@@ -122,8 +147,8 @@ module.exports = function(grunt) {
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
 	// grunt.registerTask('default', ['clean', 'less']);
-	grunt.registerTask('dev', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim']);
-	grunt.registerTask('production', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim', 'ftp-deploy:production']);
+	grunt.registerTask('dev', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim', 'copy:htaccess']);
+	grunt.registerTask('production', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim', 'copy:htaccess', 'htmlclean', 'ftp-deploy:production']);
 
 	grunt.task.registerTask('default', 'default', function(id, debug) {
 	grunt.log.subhead('grunt dev');
