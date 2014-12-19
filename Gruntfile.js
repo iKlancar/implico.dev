@@ -148,7 +148,7 @@ module.exports = function(grunt) {
 
 	// grunt.registerTask('default', ['clean', 'less']);
 	grunt.registerTask('dev', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim', 'copy:htaccess']);
-	grunt.registerTask('production', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:anim', 'copy:htaccess', 'htmlclean', 'ftp-deploy:production']);
+	grunt.registerTask('production', ['clean', 'includes', 'less', 'copy:glyphicon', 'copy:img', 'copy:js', 'copy:htaccess', 'htmlclean', 'ftp-deploy:production']); //'copy:anim', 
 
 	grunt.task.registerTask('default', 'default', function(id, debug) {
 	grunt.log.subhead('grunt dev');

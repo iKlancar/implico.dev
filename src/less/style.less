@@ -475,12 +475,12 @@ body {
 			@media (min-width: @screen-lg-min) {
 				video#video {
 					position: absolute;
-					// left: 230px;
 				}
 
 				.anim-holder {
 					z-index: -1;
-					width: 1140px;
+					width: 1050px;
+					right: 0;
 					height: 640px;
 					position: absolute;
 					overflow: hidden;
@@ -952,6 +952,14 @@ body {
 	}
 
 	&.blog {
+		h3 {
+			text-transform: uppercase;
+			color: @implico-3;
+			font-size: 16px;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
 		.mood {
 			margin-bottom: 20px;
 			background-repeat: no-repeat;
@@ -981,6 +989,7 @@ body {
 			margin-bottom: 10px;
 		}
 
+		.arhiv-title,
 		.avtor-name {
 			font-style: normal;
 			font-weight: bold;
@@ -1158,6 +1167,14 @@ body {
 	}
 
 	&.prijava {
+		.discount {
+			color: @implico-3;
+
+			span {
+				color: @implico-1;
+			}
+		}
+
 		.package {
 			background: @implico-f;
 			text-align: center;
@@ -1253,14 +1270,14 @@ body {
 
 			.tag.a {
 				position: absolute;
-				top: 121px;
-				left: 180px;
+				top: 115px;
+				left: 205px;
 			}
 
 			.tag.b {
 				position: absolute;
-				top: 122px;
-				left: 166px;
+				top: 115px;
+				left: 205px;
 			}
 		}
 
