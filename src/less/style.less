@@ -1199,7 +1199,7 @@ body {
 
 				.price-old {
 					color: @implico-2;
-					font-weight: bold;
+					font-weight: 900;
 					// text-decoration: line-through;
 				}
 
@@ -1207,7 +1207,29 @@ body {
 					color: @implico-3;
 					font-weight: bold;
 					font-size: 50px;
-					margin-top: -10px;
+					line-height: 60px;
+				}
+
+				.group {
+					// margin-top: 10px;
+
+					.txt {
+						font-size: 12px;
+						color: @implico-3;
+
+						&.last {
+							margin-top: -5px;
+						}
+					}
+					.price {
+						color: @implico-1;
+						font-size: 36px;
+						font-weight: bold;
+					}
+					.pp {
+						font-size: 12px;
+						color: @implico-3;
+					}
 				}
 			}
 
