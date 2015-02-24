@@ -1405,6 +1405,38 @@ body {
 		}
 	}
 
+	&.gallery {
+		padding-bottom: 240px;
+
+		p.lead.navi {
+			a {
+				color: @implico-3;
+
+				&:hover {
+					text-decoration: none;
+					border-bottom: 1px solid @implico-3;
+				}
+
+				&.active {
+					color: @implico-1;
+					border-bottom: 1px solid @implico-1;
+				}
+			}
+		}
+
+		#links {
+			padding: 10px;
+			
+			.part {
+				padding-left: 5px;
+				padding-right: 5px;
+				margin-bottom: 10px;
+				height: 185px;
+				overflow: hidden;
+			}
+		}
+	}
+
 	padding-bottom: 60px;
 }
 
